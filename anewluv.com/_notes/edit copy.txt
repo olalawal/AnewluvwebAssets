@@ -1,0 +1,3 @@
+	<p class="lastNode">
+You can hover over images  then click  to make it your primary photo. Also click edit icon to edit photos. Remember  Main image faces should be clearly visible. Images containing Nudity,celebrities and cartoons will be disapproved. You can  drag and drop photos if the browser you use permits. Otherwise click  select images. 
+				</p>

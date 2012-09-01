@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>anewluvForHtml5</title>
+	<link rel="stylesheet" type="text/css" href="css/detailView.css" media="all">
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.20.custom.css" media="all">
+	<!--[if IE]>
+	<style type="text/css" media="all">.borderitem {border-style: solid;}</style>
+	<![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script> 
+    <script type="text/javascript">
+	    $(function() {
+			$(".iconNavsInterests").click(function()
+			{ $("#box").attr("title","Sending Interest").text("Letting them know you're interested?").dialog({width:170,
+		height:120,
+		resizable:false,
+		draggable:false,
+		closeOnEscape:true,
+		modal:true,
+		
+		buttons: {'Yes': function(){
+			$(this).text('You are truly Interested!').dialog({
+				buttons: {'Ok': function(){
+				         $(this).dialog('close'),
+						 $(this).dialog('destroy')
+				},
+						 'Cancel': function() {
+							$(this).dialog("close"),
+							 $(this).dialog('destroy')
+				}}});
+		},
+			'Cancel': function() {
+							$(this).dialog("close"),
+							    $(this).dialog('destroy');
+						}
+		
+			
+			}});
+			
+			
+			});
+			
+		});
+		 $(function() {
+			$(".iconNavsLike").click(function()
+			{ $("#box1").attr("title","You are liking them").text("Are they becoming one of your favorites?").dialog({width:160,
+		height:120,
+		height:120,
+		resizable:false,
+		draggable:false,
+		closeOnEscape:true,
+		modal:true,
+		buttons: {'Yes': function(){
+			$(this).text('Ooooo! You really like them!').dialog({
+				buttons: {'Ok': function(){
+				         $(this).dialog('close'),
+						  $(this).dialog('destroy')
+						 
+						 
+				},
+						 'Cancel': function() {
+							$(this).dialog("close"),
+							 $(this).dialog('destroy')
+							
+				}}});
+		},
+			'Cancel': function() {
+							$(this).dialog("close"),
+							 $(this).dialog('destroy');
+						}
+		
+			
+			}});
+			
+			
+			});
+			
+		});
+	</script>
+    <!--[if gte IE 9]>
+  <style type="text/css">
+    .Greybar {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+	<!--[if IE]>
+	<style type="text/css" media="all">.borderitem {border-style: solid;}</style>
+	<![endif]-->
+     <!--[if gte IE 9]>
+  <style type="text/css">
+    #greyBar {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div id="main">
+	<aside class="headerAd">
+          <!-- Added to toggle adds 1-27-2012 -->
+
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9814096529112578";
+        /* 728x90, created 3/10/10 */
+        google_ad_slot = "2378578289";
+        google_ad_width = 728;
+        google_ad_height = 90;
+	
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </aside>
+	
+	<div id="postBoard">
+		<div id="photoBoxStrip">
+        
+			<div id="pic1">
+			</div>
+			 <div id="box"></div>
+             <div id="box1"></div>
+		</div>
+		
+	</div>
+	
+	<div id="adBanner">
+	</div>
+	<div id="detailViewContainer">
+		<h1 class="InterestsDetails">
+		<div class="clearFloat"></div>	
+				<p class="lastNode">Who Likes Me!</p>
+		</h1>
+		<div class="clearFloat"></div>
+		<div class="topLinksDetalViewContainer1">
+		<div class="clearFloat"></div>
+        
+		<div class="Select_Alldetail">
+			
+				<p class="lastNode"><a href="#" id="SelectAll" title="Select All">Select All</a>
+			</p>
+		</div>
+		<div class="Deletedetail">
+			
+				<p class="lastNode"><a href="#" id="delete" title="Select All">Delete</a>
+			</p>
+		</div>
+        </div>
+		<div id="greyBar">
+			
+			
+		</div>
+        <div class="detailViewWrapp1">
+		<div id="quikStatDetailBox">
+			<div id="detailWrapContainer">
+				<div id="chkBox"><input name="Delete" type="checkbox" value="">
+				</div>
+				<div class="Name_or_handleinterests">
+					
+						<p class="lastNode">Name or handle
+					</p>
+				</div>
+                <div class="My_catchy_intro_lineinterests">
+				
+						<p class="lastNode">My catchy intro line
+					</p>
+				</div>
+				<div id="iconNavsChat"><a href="#" class="tooltip" data-tip="Chat Now">hhhh</a>
+				</div>
+                <div class="clearFloat"></div>
+				
+			</div>
+			<div class="clearFloat"></div>
+			<div id="Detailcolwraps4">
+				<div id="detailsProfileBoxDiv">
+				</div>
+				<div id="iconNavMenu">
+					<div class="iconNavsEmail"><a href="#" class="tooltip" data-tip="Email Me">hhhh</a>
+					</div>
+					<div class="iconNavsInterests"><a href="#" class="tooltip" data-tip="Send Interest">hhhh</a>
+					</div>
+					<div class="iconNavsLike">
+                    <a href="#" class="tooltip" data-tip="Like Me">hhhh</a>
+					</div>
+					<div class="clearFloat"></div>
+				</div>
+			</div>
+			<div id="Detailcolwraps5">
+				<div id="ldetailViewbtmContainer">
+					<div class="detailViewinnerContainer">
+						<div class="Agedetail">
+							
+								<p class="lastNode">Age
+							</p>
+						</div>
+						<div class="ageNumdetail">
+							
+								<p class="lastNode">99
+							</p>
+						</div>
+						<div class="Location_SWdetail">
+							
+								<p class="lastNode">New philadelp,SW
+							</p>
+						</div>
+						
+					</div>
+					
+					<div class="detailViewinnerContainer">
+						<div class="Txt_Num">
+							
+								<p class="lastNode">Num
+							</p>
+						</div>
+						<div class="Txt_more">
+							
+								<p class="lastNode"><a href="#" title="more photos">more Photos</a>
+							</p>
+						</div>
+					</div>
+					<div class="clearFloat"></div>
+					<div class="detailViewinnerContainer">
+						<div class="age_person_seekingdetail">
+							
+								<p class="lastNode">Seeking age
+							</p>
+						</div>
+						<div class="clearFloat"></div>
+					</div>
+					<div class="clearFloat"></div>
+					<div class="detailViewinnerContainer">
+						<div class="Active_within_hours_detail">
+							
+								<p class="lastNode">Active within hours 
+							</p>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+			<div id="Detailcolwraps6">
+				<div class="Lorem_ipsum_dolor_sidetail">
+					
+						<p class="lastNode">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, ve 
+					</p>
+                  
+				</div>
+				
+			  
+			</div>
+            <div class="View_Full_Profiledetail">
+					
+						<p class="lastNode"><a href="#" title="View Full Profile">View Full Profile>></a></p>
+				</div>
+		</div>
+        </div>
+        <div class="clearFloat"></div>
+        <div class="Txt_Previous">
+					
+						<p class="lastNode"><a href="#" title="Previous">Previous</a>
+					</p>
+				</div>
+                 <div class="Txt_Next">
+					
+						<p class="lastNode"><a href="#" title="Next">Next</a>
+					</p>
+				</div>
+	</div>
+	<aside class="bannerAd">
+    <center>
+     <!-- Added to toggle adds 1-27-2012 -->
+
+
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9814096529112578";
+        /* 160x600image add */
+        google_ad_slot = "0602151849";
+        google_ad_width = 160;
+        google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+	</aside>
+	
+	<aside class="adFooter">
+       <!-- Added to toggle adds 1-27-2012 -->
+
+    <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9814096529112578";
+        /* 728x90, created 3/10/10 */
+        google_ad_slot = "2378578289";
+        google_ad_width = 728;
+        google_ad_height = 90;
+	
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+		</aside>
+	<div class="clearFloat"></div>
+</div>
+<script>
+
+
+	$(function(){
+      $("#SelectAll").click(function(){
+
+     
+       if ($("input[type='checkbox']").prop("checked"))
+       {
+           $(':checkbox').prop('checked', false);
+           $(this).text('Select all');
+        }
+     else{
+         $(':checkbox').prop('checked', true);
+          $(this).text('Deselect all');
+     }    
+
+ });
+	
+
+	});
+
+</script>
+<script>	
+$(function(){
+      $('#delete').click(function(){
+        $('#quikStatDetailBox input:checked').parents('#quikStatDetailBox').remove();
+    });
+
+	});
+
+</script>
+</body>
+</html>

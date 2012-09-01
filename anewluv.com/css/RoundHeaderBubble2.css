@@ -1,0 +1,6286 @@
+@charset "utf-8";
+
+body {
+	background-color: #f5f6f7;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2,h3, h4, h5, h6 {
+	font-weight: normal;
+}
+h3{
+	
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a{
+	text-decoration:none;
+}
+a:link img, a:visited img {
+	border: none;
+}
+
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+/*.rowWrap {
+	width: 100%;
+}*/
+/*html5 display rule*/
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+#main {
+	margin: 0 auto;
+	width: 1024px;
+}
+aside.headerAd {
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 1px;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 1022px;
+	padding-top: 10px;
+	height: 114px;
+}
+html > bodyheader.headerAd{
+	height: auto;
+	min-height: 113px;
+}
+#postBoard {
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	display:block;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 1022px;
+	padding-top: 0px;
+	height: 87px;
+}
+html > body #postBoard {
+	height: auto;
+	min-height: 86px;
+}
+#photoBoxStrip {
+	margin-left: 10px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 998px;
+	padding-top: 0px;
+	height: 113px;
+}
+html > body #photoBoxStrip {
+	height: auto;
+	min-height: 112px;
+}
+#pic1 {
+	margin-left: 28px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 94px;
+	padding-top: 0px;
+	height: 95px;
+}
+html > body #pic1 {
+	height: auto;
+	min-height: 94px;
+}
+/*h1 css*/
+.basicSettings {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.My_Quik_Stats_Edits h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.apearanceEdit h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.lifetyleEdit h1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+
+}
+.CharacterEdit h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+
+}
+h1.VisSettings {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 26px;
+	display: inline-block;
+
+}
+aside.adBanner{
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 199px;
+	padding-top: 40px;
+	height: 671px;
+}
+html > body aside.adBanner {
+	height: auto;
+	min-height: 670px;
+}
+#body {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 620px;
+	padding-top: 0px;
+	height: 671px;
+}
+html > body #body {
+	height: auto;
+	min-height: 670px;
+}
+header.roundTops{
+	text-align:center;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 0;
+	background-color: #0f6ffe;
+	border: 1px solid #0f6ffe;
+	width: 598px;
+	padding-top: 0px;
+	height: 59px;
+}
+html > body header.roundTops {
+	height: auto;
+	min-height: 58px;
+}
+/*h2css*/
+h2.Txt_PhotoEdits {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/PhotoEdits.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:162px;
+	height:28px;
+}
+.Txt_basicSettings h2 {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:497px;
+	height:28px;
+	background-image: url(../images/aboutWhat%20LookingFor.png);
+}
+.Txt_QuikEdits h2{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/QuikEdits.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:162px;
+	height:28px;
+}
+.Txt_Apearrance h2 {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/Appearance.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:162px;
+	height:28px;
+}
+.Txt_LifeStyle h2{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/LifeStyle.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:162px;
+	height:28px;
+}
+.Txt_Character h2 {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/Character.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:162px;
+	height:28px;
+}
+h2.Txt_VisSettings {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/VisSettings.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:182px;
+	height:28px;
+}
+h2.Txt_AccountSettings {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/AccountSet.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:182px;
+	height:28px;
+}
+.Txt_LogIn h2{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/LogIn.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:182px;
+	height:28px;
+}
+.TxtSignUp h2{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/SignUp.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:182px;
+	height:28px;
+}
+.Txt_CompleteReg  h2{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: transparent;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 12px;
+	display: inline-block;
+	background-image: url(../images/CompleteReg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:290px;
+	height:28px;
+}
+/* Start roundcontainer/ roundwrap/ roundtext css*/
+.roundWrap {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: block;
+	/*float: left;*/
+/*	border: 1px solid black;*/
+	width: 594px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body .roundWrap {
+	height: auto;
+	min-height: 30px;
+}
+.TxtRound{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	/*margin-left: 277px;*/
+	margin-top: 6px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+.roundContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: none;
+	width: 595px;
+	padding-top: 0px;
+	
+	
+}
+.roundContainer1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 595px;
+	padding-top: 0px;
+	min-height:88px;
+	height:auto;
+	
+}
+.roundContainer2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 595px;
+	padding-top: 0px;
+	min-height:91px;
+	height:auto;
+	
+}
+.roundCombox{
+	text-align:center;
+	/*margin-left: 201px;*/
+	margin-top: 5px;
+	display: inline-block;
+	/*float: left;*/
+	height: auto;
+	margin-bottom: 0;
+}
+.roundComboxLft{
+	margin-left: 86px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+	
+}
+.roundComboxRght{
+	margin-right: 103px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+.roundBottomsWrap {
+	text-align:center;
+	margin-left: 10px;
+	display: block;
+	float: left;
+	margin-bottom: 3px;
+	background-color: #fff;
+	border: 1px solid #0f6ffe;
+	width: 598px;
+	padding-top: 0px;
+	height: 559px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+html > body .roundBottomsWrap{
+	height: auto;
+/*	min-height: 558px;*/
+}
+.roundNav ul{
+	padding:0;
+	margin:0;
+	
+	
+}
+.roundNav li {
+	margin-top:30px;
+	margin-bottom: 10px;
+	list-style-type:none;
+	text-align:center;
+	display:inline-block;
+	
+	
+	
+}
+.roundNav li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight:bold;
+	text-align: left;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 20px;
+	margin-top: 30px;
+	text-decoration:none;
+}
+.roundNav li a:hover {
+	text-decoration:underline;
+}
+/*Part of domestic Situation css*/
+#roundLfttContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display:inline-block;
+	float: left;
+	margin-bottom: 0;
+	border: none;
+	width: 294px;
+	padding-top: 0px;
+	
+}
+/*Part of domestic Situation css*/
+#roundRghtContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display:inline-block;
+	float: left;
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 294px;
+	padding-top: 0px;
+	
+}
+/* End roundcontainer/ roundwrap/ roundtext css*/
+.bttmBtnWraps{
+	text-align:center;
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+	height:40px;
+	width:550px;
+	display:inline-block;
+}
+.back a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align: left;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 34px;
+	margin-top: 30px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 8px;
+}
+.next a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align: left;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 24px;
+	margin-top: 30px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 5px;
+}
+.backToHome a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align:center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 24px;
+	margin-top: 30px;
+	display: inline-block;
+	/*float: right;*/
+	margin-bottom: 5px;
+}
+.backToHome1 a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align:right;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 204px;
+	margin-top: 30px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 5px;
+}
+aside.bannerAd{
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 199px;
+	padding-top: 40px;
+	height: 671px;
+}
+html > body aside.bannerAd {
+	height: auto;
+	min-height: 670px;
+}
+aside.adFooter{
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 1022px;
+	padding-top: 0px;
+	height: 123px;
+}
+html > body footer.adFooter {
+	height: auto;
+	min-height: 122px;
+}
+/*start of sign up Registaration css*/
+.TxtReg h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 130%;
+	text-align: center;
+	color: #333;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 61px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+#RegistrationContainer {
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 0px;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 379px;
+	padding-top: 8px;
+	height: 560px;
+}
+html > body #RegistrationContainer {
+	/*height: auto;*/
+	/*min-height: 402px;*/
+}
+.registrationInnerWrap  {
+	margin-left: 11px;
+	margin-top: 5px;
+	margin-left: 11px;
+	float: left;
+	margin-bottom: 9px;
+	/*border: 1px solid #000;*/
+	width: 360px;
+	padding-top: 0px;
+	height: 29px;
+	text-align: right;
+}
+}
+html > body .registrationInnerWrap  {
+	height: auto;
+	min-height: 30px;
+}
+.UserRegistration {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align: left;
+	color: #333;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 22px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+.TextField_win_Reg {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 22px;
+	margin-top: 1px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 190px;
+}
+
+
+.regComboBox{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 28px;
+	margin-top: 1px;
+	display: inline-block;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 190px;
+}
+#cancelRegBtnContainer {
+	margin-left: 10px;
+	margin-top: 5px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 0;
+	border: none;
+	width: 132px;
+	padding-top: 0px;
+	height: 26px;
+}
+html > body #cancelRegBtnContainer {
+	height: auto;
+	min-height: 31px;
+}
+#saveRegBtnContainer {
+	margin-left: 100px;
+	margin-top: 5px;
+	float: left;
+	margin-bottom: 0;
+	border: none;
+	width: 120px;
+	padding-top: 0px;
+	height: 30px;
+	display: inline-block;
+}
+html > body #saveRegBtnContainer {
+	height: auto;
+	min-height: 28px;
+}
+.Txt_bottomRound a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 166px;
+	margin-right:auto;
+	margin-top: 30px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+.Txt_bottomRound a:hover{
+	text-decoration:underline;
+}
+.Txt_Upload {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 103px;
+	margin-top: 5px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+#Button_win_RegSelectPhoto {
+	color: #000;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	overflow: visible;
+	padding: 0;
+	margin-left: 34px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	height: 25px;
+	margin-bottom: 0;
+	width: 100px;
+}
+.dropArea{
+	margin: 10px auto;
+	padding-top:4px;
+	display:block;
+	width: 570px;
+	height: 200px;
+	border: 1px solid #DBDBDB;
+	border-radius: 4px;
+	min-height:200px;
+	height:auto;
+}
+/*end of sign up Registaration css*/
+/* Account settins use the same css & html as Sign
+up registration with slight changes*/
+/* Start of Acount setting settings CSS*/
+.Txt_AcctSettings h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 130%;
+	text-align: center;
+	color: #333;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 61px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	
+}
+#cancelAcctBtnContainer {
+	margin-right: 0px;
+	margin-top: 20px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 0;
+	border: none;
+	width: 132px;
+	padding-top: 0px;
+	height: 30px;
+}
+html > body #cancelRegBtnContainer {
+	height: auto;
+	min-height: 31px;
+}
+#saveAcctBtnContainer {
+	margin-left: 100px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 0;
+	border: none;
+	width: 110px;
+	padding-top: 0px;
+	height: 30px;
+	display: inline-block;
+}
+html > body #saveAcctBtnContainer {
+	height: auto;
+	min-height: 31px;
+}
+#deactivateAcctBtnContainer {
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 40px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+
+	border: none;
+	width: 140px;
+	padding-top: 0px;
+	height: 30px;
+	border: none;
+}
+#cancelSettingsBtnContainer {
+	margin-right: 110px;
+	margin-top: 5px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 140px;
+	padding-top: 0px;
+	height: auto;
+}
+html > body #cancelRegBtnContainer {
+	height: auto;
+	min-height: 31px;
+}
+#saveSettingsBtnContainer {
+	margin-left: 110px;
+	margin-top: 5px;
+	float: left;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 130px;
+	padding-top: 0px;
+	height: auto;
+	display: inline-block;
+}
+html > body #saveAcctBtnContainer {
+	height: auto;
+	min-height: 31px;
+}
+/*vFor isibilty Settings*/
+#saveSettingsBtnContainer1 {
+	margin-left: 140px;
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 130px;
+	padding-top: 0px;
+	height: auto;
+	display: inline-block;
+}
+html > body #saveAcctBtnContainer1 {
+	height: auto;
+	min-height: 31px;
+}
+#cancelSettingsBtnContainer1 {
+	margin-right: 40px;
+	margin-top: 20px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 140px;
+	padding-top: 0px;
+	height: auto;
+}
+html > body #cancelRegBtnContainer {
+	height: auto;
+	min-height: 26px;
+}
+
+/* end of Acount setting settings CSS*/
+/*Start Visibility settings css*/
+
+
+#ComboBox_win_VisibilitySettings {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+	margin-right: 115px;
+}
+
+.roundSmallinnerWraps {
+	margin-left: 1px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	margin-bottom:10px;
+	border: none;
+	width: 292px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body .roundSmallinnerWraps {
+	height: auto;
+	min-height: 29px;
+}
+.roundSmallinnerWraps1 {
+	margin-left: 1px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	margin-bottom:10px;
+	border: none;
+	width: 262px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body .roundSmallinnerWraps1 {
+	height: auto;
+	min-height: 29px;
+}
+.TxtLeftSide {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 15px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+.TxtLeftSide1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 2px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+#ComboBox_win_VisibilitySettings2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 2px;
+	margin-top: 3px;
+	display: inline-block;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+
+
+
+
+/*End of Visibility settings css*/
+/*Start Log in css*/
+.PleaseLogIn h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align: center;
+	font-weight:bold;
+	color: #333;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-left: auto;
+	margin-top: 56px;
+	display: inline-block;
+/*	float: left;*/
+	margin-bottom: 0;
+}
+#LogInContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 379px;
+	padding-top: 0px;
+	height: 149px;
+}
+html > body #LogInContainer {
+	height: auto;
+	min-height: 130px;
+}
+.LogInTopInnerWrap {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 340px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #LogInTopInnerWrap {
+	height: auto;
+	min-height: 30px;
+}
+.LogInTopInnerWrap1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 300px;
+	padding-top: 5px;
+	height: 29px;
+}
+html > body #LogInTopInnerWrap {
+	height: auto;
+	min-height: 30px;
+}
+.UserLogIn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	text-align: center;
+	color: #333;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 22px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+.UserLogIn1 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight:bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 110px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	text-decoration:none;
+}
+.TextField_win_LogIn {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-right: 22px;
+	margin-top: 1px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 190px;
+}
+
+#LogInBttmContainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 444px;
+	padding-top: 0px;
+	height: 149px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight:bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+html > body #LogInBttmContainer {
+	height: auto;
+	min-height: 150px;
+}
+#LogInBttmContainer a{
+	color: #4c8acb;
+	text-decoration:none;
+}
+#LogInBttmContainer a:hover{
+	text-decoration:underline;
+}
+.Txt_Click {
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+/*	float: left;*/
+	margin-bottom: 0;
+}
+.Txt_Click2 {
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+	padding-top: 3px;
+}
+.Txt_Click3{
+	margin-top:10px;
+	margin-left:30px;
+	margin-right: auto;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+.Txt_Register {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+.RememberMe{
+	margin-left:14px;
+	float:left;
+	margin-top:4px;
+}
+#submit{
+	margin-right:96px;
+	margin-left:auto;
+	float:right;
+	margin-top:2px;
+	
+}
+#submit1{
+	margin-right:46px;
+	margin-left:auto;
+	float:right;
+	margin-top:2px;
+}
+#Cancel{
+	float:right;
+	margin-right:46px;
+}
+/*End of Log in Css*/
+/*start of about me edits/ basic settings*/
+.My_Quik_Stats_EditsaboutEdit {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: left;
+	color: #115eb3;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 403px;
+	margin-top: 28px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+
+
+
+.DescribeEdit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	width: 543px;
+}
+.DescribeEdit2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 160%;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 14px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	width: 543px;
+}
+#describeInputTextArea_win_aboutEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	display: block;
+	height: 200px;
+	margin-bottom: 0;
+	width: 550px;
+}
+.aboutEdit {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: left;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+#genderComboBox_win_aboutEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+	display: inline-block;
+	height: auto;
+	margin-bottom: 0;
+	width: 100px;
+}
+#age1ComboBox_win_aboutEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+	display: inline-block;
+	/*float: left;*/
+	height: auto;
+	margin-bottom: 0;
+	width: 100px;
+}
+.Txt_toSettings {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: left;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 40px;
+	margin-right:40px;
+	margin-top: 17px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+#Age2ComboBox_win_aboutEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+	display: inline-block;
+/*	float: left*/;
+	height: auto;
+	margin-bottom: 0;
+	width: 100px;
+}
+
+#introLineTextField_win_aboutEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	display: inline-block;
+	/*float: left*/;
+	height: auto;
+	margin-bottom: 30px;
+	width: 360px;
+}
+#aboutEditContainer{
+	width:550px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	border:none;
+	height:200px;
+	height:auto;
+}
+.aboutEditInnerContainers{
+	border: none;
+	hieght:auto;
+	
+}
+#MaleBasic{
+	margin-left:50px;
+}
+#FemaleBasic{
+	margin-left:50px;
+}
+.genderLab{
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: auto;
+	margin-right:30px;
+	margin-top: 2px;
+	display: inline-block;
+	/*float: left;*/
+	height: auto;
+	
+	
+}
+/*end of about me edit/ basic settings*/
+
+
+
+/*Start of about me edit/ basic settings2 css*/
+
+.basic2Container2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 10px;
+	/* [disabled]border: 1px solid #000; */
+	width: 595px;
+	padding-top: 0px;
+	height: 80px;
+}
+html > body .basic2Container2 {
+	height: auto;
+	min-height: 80px;
+}
+#CheckBox_winBasic {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 97px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_winBasic5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 130px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 66px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 40px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 67px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_winBasic11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 56px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.TxtBasic3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 190px;
+	margin-top: 6px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+#TextFieldBasic2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: 6px;
+	margin-top: 5px;
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 120px;
+}
+#BtnContainers {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: none;
+	width: 595px;
+	padding-top: 20px;
+	height: 79px;
+}
+html > body #BtnContainers {
+	height: auto;
+	min-height: 50px;
+}
+
+/*end of about me edit/ basic settings2 css*/
+/*Start of quik edit css*/
+#quikLftwrap {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 215px;
+}
+#mainPhotoMyQseQuik {
+	margin-left: 21px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 192px;
+	padding-top: 0px;
+	height: 193px;
+}
+html > body #mainPhotoMyQseQuik {
+	height: auto;
+	min-height: 192px;
+}
+#quikBtmLftContainer {
+	margin-left: 3px;
+	margin-top: 0px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 210px;
+	padding-top: 0px;
+	height: 175px;
+}
+html > body #quikBtmLftContainer {
+	height: auto;
+	min-height: 176px;
+}
+.EditLftQuik a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: left;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+.My_Catchy_Intro_LineMyQseQuik a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 16px;
+	margin-top: 43px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 160px;
+}
+#quikRghtwrap {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 380px;
+}
+#QuikEditWrap {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	display: inline-block;
+	margin-bottom: 0;
+	width: 340px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #QuikEditWrap {
+	height: auto;
+	min-height: 30px;
+}
+.TxtAbout a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 12px;
+	margin-top: 3px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+	width: 324px;
+}
+#quikContainer {
+	margin-left: 0px;
+	margin-top: 1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 379px;
+	padding-top: 0px;
+	height: 359px;
+}
+html > body #quikContainer {
+	height: auto;
+	min-height: 360px;
+}
+#quikLftContainer {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 188px;
+}
+#quikEditInnerWrap {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+	width: 185px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #quikEditInnerWrap {
+	height: auto;
+	min-height: 30px;
+}
+.EditLftInnerQuik a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 2px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+#quikRghtContainer {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 188px;
+}
+#quikEditInnerWrap2 {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+	width: 185px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #quikEditInnerWrap2 {
+	height: auto;
+	min-height: 30px;
+}
+.EditRghtInnerQuik a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	/*margin-left: 9px;*/
+	margin-top: 1px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+#returnPrevBtn{
+	width:130px;
+	height:25px;
+	border: none;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 160px;
+	margin-right: auto;
+	margin-top: 30px;
+	display: inline-block;
+	float:left;
+	margin-bottom:10px;
+}
+
+/*end of quik edit css*/
+/*Start of Appearance body type and Height css*/
+
+#BodyHeightWrap2 {
+	margin-left: 1px;
+	margin-top: 1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 592px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #BodyHeightWrap2 {
+	height: auto;
+	min-height: 30px;
+}
+#ComboBox_win_BodyHeight {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+#ComboBox_win_BodyHeight2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+#CheckBox_win_BodyHeight {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 156px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 43px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_BodyHeight4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 130px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 69px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_BodyHeight7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 65px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 69px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_BodyHeight10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 59px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 91px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_BodyHeight13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 3px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 102px;
+	margin-top: 3px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_BodyHeight15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 45px;
+	margin-top: 3px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_BodyHeight16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 2px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Appearance body type and Height css*/
+/*Start of Appearance css*/
+
+
+.EthnicityContainer {
+	margin-left: 0px;
+	margin-top: 1px;
+	float: left;
+	margin-bottom: 0;
+	border: none;
+	width: 595px;
+	padding-top: 0px;
+}
+*/
+
+#CheckBox_win_Ethnicity {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 156px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 75px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Ethnicity4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 78px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 118px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Ethnicity7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 7px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 23px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Ethnicity10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 77px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Appearance Ethnicity css*/
+/*Start of Appearance Eye and Hair Color css*/
+
+
+#ComboBox_win_HairEye {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+
+
+#CheckBox_win_HairEye {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 27px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 84px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 74px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 61px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Ethnicity2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 69px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 42px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HairEye7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 116px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HairEye9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 77px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Appearance Eye and Hair Color css*/
+/*Start of Appearance Hot feature css*/
+
+
+#CheckBox_win_hotFeature {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 91px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 134px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_hotFeature4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 89px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 115px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_hotFeature7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 89px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 146px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_hotFeature10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 88px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 135px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_hotFeature13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 88px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_hotFeature15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 137px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Appearance Hot Feature css*/
+/*Start of Lifestyle Domestic Situation Css*/
+
+#ComboBox_win_DomesticSituaion {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+#ComboBox_win_DomesticSituaion2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+#CheckBox_win_DomesticSituaion {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaion2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 36px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaion3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 93px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DomesticSituaion4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaion5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 117px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.Txt_MaritalDomestic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 101px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+.Txt_LookingDomestic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 134px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_DomesticSituaion6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+
+#CheckBox_win_DomesticSituaion7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 18px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaion8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 18px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DomesticSituaion9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 18px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaion10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 15px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DomesticSituaion11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 16px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaionLive {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaionLive2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaionLive3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 53px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DomesticSituaionLive4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaionLive5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 51px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DomesticSituaionLive6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 24px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+/*End of Lifestyle Domestic Situation Css*/
+/*Start of Lifestyle Kids Css*/
+
+#ComboBox_win_Kids {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+#ComboBox_win_Kids2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+.TxtKidsLft{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 113px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+.TxtKidsRght{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 143px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	margin-bottom: 0;
+}
+
+
+
+#CheckBox_win_Kids {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+
+#CheckBox_win_Kids2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Kids3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 38px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Kids4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Kids5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Kids6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_KidS {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_KidS2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 7px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_KidS3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_KidS4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 32px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_KidS5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 3px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Lifestyle Kids Css*/
+/*Start of Lifestyle Employment/Income Css*/
+/*#RoundWrap {
+	margin-left: 0px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 594px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #RoundWrap {
+	height: auto;
+	min-height: 30px;
+}*/
+/*.Txt_Me {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 153px;
+	margin-top: 4px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}*/
+/*#RoundWrap2 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 594px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #RoundWrap2 {
+	height: auto;
+	min-height: 30px;
+}*/
+#ComboBox_win_EmploymentIncome {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+#ComboBox_win_EmploymentIncome2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+
+#CheckBox_win_EmploymentIncome {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 120px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 86px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 94px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 85px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 64px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 82px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 32px;
+	margin-top: 5px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 52px;
+	margin-top: 5px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 47px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 24px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 31px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EmploymentIncome19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 35px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Lifestyle  Employment/Income Css*/
+/*Start of Lifestyle Education/Profession Css*/
+
+#ComboBox_win_EducationProfession {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+#ComboBox_win_EducationProfession2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+#CheckBox_win_EducationProfession {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 89px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 85px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EmploymentIncome {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 34px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 22px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 59px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 59px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 77px;
+	margin-top: 12px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_EducationProfession11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 78px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 111px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 73px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 74px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession20 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 60px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession21 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession22 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 6px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession23 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession24 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 92px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession25 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession26 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 20px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession27 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_EducationProfession28 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 44px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_EducationProfession29 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 21px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of LifestyleEducation/Profession Css*/
+/*Start of Character Diet and Exercise Css*/
+
+#ComboBox_win_DietExercise {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+#ComboBox_win_DietExercise2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 130px;
+}
+
+.Txt_Diet {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 94px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 36px;
+}
+.Txt_Exercise {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 125px;
+	margin-top: 4px;
+	display: inline;
+	float: right;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_DietExercise {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 40px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 44px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_DietExercise7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.Txt_Drinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 90px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+.Txt_Smokes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-right: 128px;
+	margin-top: 5px;
+	display: inline;
+	float: right;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_DietExercise12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 9px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 56px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 9px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 44px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 9px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 44px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+
+#CheckBox_win_DietExercise18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise20 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise21 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 51px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_DietExercise22 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 6px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_DietExercise23 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 76px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+/*End of Character Diet and Exercise Css*/
+/*Start of Character Hobbies Css*/
+
+#ComboBox_win_Hobbies {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+
+#CheckBox_win_Hobbies {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 12px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 91px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 84px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 133px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 70px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 130px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 80px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 37px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 78px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 121px;
+	margin-top: 8px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 110px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 56px;
+	margin-top: 10px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 12px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies20 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 40px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies21 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 121px;
+	margin-top: 12px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies22 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies23 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies24 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 124px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Hobbies25 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Hobbies26 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 49px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+/*End of Character Hobbies Css*/
+/*Start of Character Faith */
+#ComboBox_win_Faith {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+#ComboBox_win_Faith2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+
+#CheckBox_win_Faith {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 56px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 32px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 55px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Faith5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 27px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 85px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 51px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Faith9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 12px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 6px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 9px;
+	margin-top: 6px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Faith13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 39px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 79px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 73px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Faith17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Faith18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 13px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 33px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith20 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith21 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 15px;
+	margin-top: 15px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Faith22 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 44px;
+	margin-top: 15px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+/*End of Character Faith Css*/
+
+/*Start of Character  Politics Css*/
+#ComboBox_win_Politics {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+
+#CheckBox_win_Politics {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 64px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 49px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 79px;
+	margin-top: 7px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Politics5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 35px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 13px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 4px;
+	margin-top: 5px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_Politics9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 4px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 11px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_Politics11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 34px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+/*End of Character Politics Css*/
+/*Start of Character Humot/ Astrology Css*/
+
+#ComboBox_win_HumorAstro {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+#ComboBox_win_HumorAstro2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	width: 130px;
+}
+
+#CheckBox_win_HumorAstro {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 25px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro3 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 63px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro4 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro5 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 58px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro6 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 22px;
+	margin-top: 9px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro7 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro8 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 67px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro9 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 78px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro10 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro11 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 11px;
+	margin-top: 12px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro12 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 32px;
+	margin-top: 12px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro13 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 52px;
+	margin-top: 12px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro14 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 46px;
+	margin-top: 12px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro15 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 72px;
+	margin-top: 12px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro16 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 11px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro17 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 32px;
+	margin-top: 14px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro18 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 57px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro19 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 49px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro20 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 54px;
+	margin-top: 11px;
+	display: inline;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#CheckBox_win_HumorAstro21 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 8px;
+	margin-top: 9px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro22 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 42px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#CheckBox_win_HumorAstro23 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: 57px;
+	margin-top: 11px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+/*End of Character Humot/ Astrology Css*/
+/* start of Photo Edits css*/
+
+#photoEditsTopContainer{
+	margin-left:auto;
+	margin-right:auto;
+	width:596px;
+	height: 324px;
+	min-height:322px;
+	height:auto;
+	/* [disabled]border: 1px solid #orange; */
+	display:block;
+}
+#mainPhotosEditContainer{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	height:310px;
+	width:210px;
+	/* [disabled]border: 1px solid #green; */
+}
+#photoEditsTopLftContainer {
+	margin-left: 1px;
+	margin-top: 0px;
+	/* [disabled]display: inline; */
+	float: left;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 245px;
+	padding-top: 0px;
+	height: 311px;
+}
+html > body #photoEditsTopLftContainer {
+	height: auto;
+	min-height: 312px;
+}
+#innerPhotoEditsLft {
+	margin-left:auto;
+    margin-right:auto;
+	display: inline;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 192px;
+	padding-top: 0px;
+	height: 27px;
+}
+html > body #innerPhotoEditsLft {
+	height: auto;
+	min-height: 26px;
+}
+#CheckBox_win_Make_Primary_photoEdits {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left:5px;
+	margin-right:auto;
+	margin-top: 10px;
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+#Button_win_RegSelectPhotoUpdatePhotoEdits {
+	color: #000;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	overflow: visible;
+	padding: 0;
+	margin-left:auto;
+	margin-right:5px;
+	margin-top: 4px;
+	display: block;
+	float: right;
+	height: 30px;
+	margin-bottom: 20px;
+	width: 79px;
+}
+#mainPhotoEdit {
+	margin-left:auto;
+    margin-right:auto;
+	margin-top:10px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 192px;
+	padding-top: 0px;
+	height: 193px;
+}
+html > body #mainPhotoEdit {
+	height: auto;
+	min-height: 192px;
+}
+.editPhoto{
+	display:none;
+	
+	
+}
+#mainPhotoEdit:hover .editPhoto {
+	display:block;
+	border: 1px solid #000;
+	height: 20px;
+	width:192;
+}
+.innerPhotoEditsLftWrap {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: none;
+	width: 200px;
+	padding-top: 0px;
+	height: 27px;
+}
+html > body #innerPhotoEditsLftWrap {
+	height: auto;
+	min-height: 26px;
+}
+.TxtPhotoEdits {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 105%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 2px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.TxtPhotoEdits1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-top: 3px;
+	display: inline=block;
+	margin-bottom: 0;
+}
+#TextField_winPhotoEdits {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: 2px;
+	display: inline;
+	height: auto;
+	margin-left:auto;
+    margin-right:auto;
+	margin-bottom: 0;
+	width: 190px;
+}
+#colwrap6 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 348px;
+}
+#photoEditsTopRghtContainer {
+	margin-left: 1px;
+	margin-top: 0px;
+	/* [disabled]display: inline; */
+	float: left;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 345px;
+	padding-top: 0px;
+	height: 311px;
+}
+html > body #photoEditsTopRghtContainer {
+	height: auto;
+	min-height: 312px;
+}
+#PhotoEditsinnerRghtWrap {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 303px;
+	padding-top: 0px;
+	height: 37px;
+}
+html > body #PhotoEditsinnerRghtWrap {
+	height: auto;
+	min-height: 36px;
+}
+.dropAreaContainer{
+	margin-left:auto;
+	margin-right:auto;
+	width: 306px;
+	margin-top: 14px;
+}
+#Button_win_RegSelectPhotoPhotoEdits {
+	color: #000;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	overflow: visible;
+	padding: 0;
+	margin-left: 173px;
+	margin-top: 8px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 120px;
+}
+#dropArea2 {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 1px;
+	display: none;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*background-color: #DBDBDB;*/
+	border: 2px dashed #ccc;
+	width: 303px;
+	padding-top: 0px;
+	height: 198px;
+	border-radius:5px;
+}
+html > body #dropArea2 {
+	height: auto;
+	min-height: 190px;
+}
+#basic2Container {
+	margin-left: 1px;
+	margin-top: 1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 592px;
+	padding-top: 0px;
+	height: 29px;
+}
+html > body #basic2Container {
+	height: auto;
+	min-height: 30px;
+}
+.Txt_Public {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 167px;
+	margin-top: 4px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+#photoEditsLowerContainer {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 3px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: 1px solid #DBDBDB;
+	width: 590px;
+	padding-top: 0px;
+	height: 184px;
+}
+html > body #photoEditsLowerContainer {
+	height: auto;
+	min-height: 183px;
+}
+.photoSmallEdit {
+	margin-left:auto;
+    margin-right:auto;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 94px;
+	padding-top: 0px;
+	height: 93px;
+}
+html > body .photoSmallEdit {
+	height: auto;
+	min-height: 94px;
+}
+.editPhoto1, .makePrimary1{
+	display:none;
+}
+.photoSmallEdit:hover .editPhoto1 {
+	display:block;
+	width: 94px;
+	height:20px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;	
+}
+.photoSmallEdit:hover .makePrimary1{
+	padding-top:6px;
+	margin-top:50px;
+	display:block;
+	width: 94px;
+	height:16px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+.photoSmallEdit:hover .editPhoto1,.photoSmallEdit:hover .makePrimary1{
+	text-decoration:none;
+}
+.photoSmallWrap {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 94px;
+	padding-top: 0px;
+	height: 23px;
+}
+html > body .photoSmallWrap {
+	height: auto;
+	min-height: 22px;
+}
+#CheckBox_win_PhotoEdit {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left:auto;
+    margin-right:auto;
+	margin-top: 3px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#Button_win_DeleteSelectedPhotoEdits {
+	color: #fff;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	overflow: visible;
+	padding: 0;
+	margin-left: 150px;
+	margin-top: 3px;
+	display: block;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+	width: 120px;
+	height:30px;
+}
+#Button_win_MakePrivatePhotoEdits {
+	color: #fff;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	overflow: visible;
+	padding: 0;
+	margin-right: 170px;
+	margin-top: 3px;
+	display: block;
+	float: right;
+	height: auto;
+	margin-bottom: 0;
+	width: 120px;
+	height:30px;
+}
+.photoSmallEditContainer{
+	margin-left: 23px;
+	margin-top: 34px;
+	height:123px;
+	width:96px;
+	height:auto;
+	/* [disabled]border: 1px solid red; */
+	float: left;
+}
+/*image Editor CSSS*/
+
+.TxtAnewluvImgEditor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 6px;
+	/*margin-left: 198px;*/
+	margin-top:6px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+#photoEditsLowerContainer2 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: 1px solid #DBDBDB;
+	width: 590px;
+	padding-top: 0px;
+	/*height: 391px;*/
+}
+html > body #photoEditsLowerContainer2 {
+	height: auto;
+	min-height: 390px;
+}
+#imageEditingArea {
+	margin-left: 7px;
+	margin-top: 3px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	width: 460px;
+	padding-top: 0px;
+	height: 460px;
+}
+html > body #imageEditingArea {
+	height: auto;
+	min-height: 380px;
+}
+.photoSmallEditContainer1{
+	float: right;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 110px;
+}
+#photoSmallEdit {
+	margin-right: 14px;
+	margin-top: 4px;
+	display: block;
+	float: right;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 94px;
+	padding-top: 0px;
+	height: 93px;
+}
+html > body #photoSmallEdit {
+	height: auto;
+	min-height: 94px;
+}
+#photoSmallWrap1 {
+	margin-right: 14px;
+	margin-top: 0px;
+	display: block;
+	float: right;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 100px;
+	padding-top: 0px;
+	height: 23px;
+}
+html > body #photoSmallWrap {
+	height: auto;
+	min-height: 22px;
+}
+#CheckBox_win_Make_Primary_photoEdits2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-top: 4px;
+	display: inline;
+	float: left;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.Write_Cool_Caption1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 8px;
+	/*margin-left: 233px;*/
+	margin-top: 4px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+
+#TextField_win_PhotoEdits2 {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-style: normal;
+	font-weight: normal;
+	/*margin-left: 205px;*/
+	margin-top: 6px;
+	display: inline-block;
+	/*float: left;*/
+	height: auto;
+	margin-bottom: 0;
+	width: 190px;
+}
+.imageEditor{
+	margin-left:auto;
+    margin-right:auto;
+	width:596;
+	border: 2px solid #green;
+	/*float:left;*/
+	
+}
+.photoEditsContainer{
+	margin-left:auto;
+    margin-right:auto;
+	width:596;
+	border: 2px solid #green;
+	/*float:left;*/
+}
+/*end of photo edits csss*/
+/* Start under construction*/
+#undrConstrucshieldSign {
+	margin-left:auto;
+    margin-right:auto;
+	margin-top: 68px;
+	display: block;
+	height: 438px;
+	margin-bottom: 0;
+	width: 500px;
+}
+#comingSoon {
+	margin-left:auto;
+    margin-right:auto;
+	margin-top: 72px;
+	display: block;
+	height: 52px;
+	margin-bottom: 0;
+	width: 283px;
+}
+/* end od under construction*/
+/*css3*/
+header.roundTops{
+background: rgb(174,205,252); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FlY2RmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzM3ODlmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iIzM3ODlmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzM3ODlmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iIzM3ODlmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU2JSIgc3RvcC1jb2xvcj0iIzM3ODlmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNmQxZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(174,205,252,1) 0%, rgba(55,137,252,1) 44%, rgba(55,137,252,1) 47%, rgba(55,137,252,1) 50%, rgba(55,137,252,1) 53%, rgba(55,137,252,1) 56%, rgba(182,209,249,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,205,252,1)), color-stop(44%,rgba(55,137,252,1)), color-stop(47%,rgba(55,137,252,1)), color-stop(50%,rgba(55,137,252,1)), color-stop(53%,rgba(55,137,252,1)), color-stop(56%,rgba(55,137,252,1)), color-stop(100%,rgba(182,209,249,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(174,205,252,1) 0%,rgba(55,137,252,1) 44%,rgba(55,137,252,1) 47%,rgba(55,137,252,1) 50%,rgba(55,137,252,1) 53%,rgba(55,137,252,1) 56%,rgba(182,209,249,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(174,205,252,1) 0%,rgba(55,137,252,1) 44%,rgba(55,137,252,1) 47%,rgba(55,137,252,1) 50%,rgba(55,137,252,1) 53%,rgba(55,137,252,1) 56%,rgba(182,209,249,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(174,205,252,1) 0%,rgba(55,137,252,1) 44%,rgba(55,137,252,1) 47%,rgba(55,137,252,1) 50%,rgba(55,137,252,1) 53%,rgba(55,137,252,1) 56%,rgba(182,209,249,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(174,205,252,1) 0%,rgba(55,137,252,1) 44%,rgba(55,137,252,1) 47%,rgba(55,137,252,1) 50%,rgba(55,137,252,1) 53%,rgba(55,137,252,1) 56%,rgba(182,209,249,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aecdfc', endColorstr='#b6d1f9',GradientType=0 ); /* IE6-8 */
+ 
+
+border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #0f6ffe;
+	border-right-color: #0f6ffe;
+	border-bottom-color: #0f6ffe;
+	border-left-color: #0f6ffe;
+	
+}
+/*start link directory Our Community of Connecttions CCSS*/
+h2.TxtDirectory{
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-size: 210%;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 10px;
+	display: inline-block;
+	margin: 0px;
+	text-shadow:1px 4px 5px
+	#000;
+}
+/*.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: left;
+	color: #115eb2;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 291px;
+	margin-top: 26px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}*/
+
+.inLinkDirectory {
+	margin-left: 0px;
+	margin-top: 20px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	border: none;
+	width: 596px;
+	padding-top: 0px;
+	height: 49px;
+}
+html > body .inLinkDirectory{
+	height: auto;
+	min-height: 48px;
+}
+.TxtSideLink{
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	color: #115eb2;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	margin-right:10px;
+	margin-bottom: 0;
+	width: 111px;
+	
+}
+.TxtMainContent{
+	font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	text-align: left;
+	color: #115eb2;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 2px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 388px;
+}
+.containerLinkDirectory{
+	width:596px;
+	float:left;
+	border:none;
+	/*min-height:50px;
+	height:auto;*/
+}
+.containerLinkDirectory a{
+	color:#0f6ffe;
+	text-decoration:underline;
+}
+.containerLinkDirectory a:hover{
+	color:#F0F;
+}
+.titlelink {
+	color:#F0f !important;
+	text-decoration:none !important;
+	
+}
+.titlelink:hover{
+	text-decoration:underline !important;
+}
+#roundTopLinkDirectoryDiv .lastNode{
+	text-shadow:1px 4px 5px
+	#000;
+}
+/*end  link directory Our Community of Connecttions CCSS*/
+
+/*start site maintence CCSS*/
+#SiteMaintenance {
+	margin-left: 244px;
+	margin-top: 197px;
+	background-image: url(../images/SiteMaintenance.gif);
+	overflow: hidden;
+	display: block;
+	float: left;
+	height: 442px;
+	margin-bottom: 0;
+	width: 555px;
+}
+/*end site maintence CCSS*/
+/*start site map CCSS*/
+.siteMapContainer{
+	width:594;
+	margin:0 auto;
+	height:80px;
+	border: none;
+}
+
+.siteMapWraps{
+	width:594;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	height:25px;
+	overflow:hidden;
+	border: none;
+}
+.siteMapWraps a{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	font-weight:bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+.siteMapWraps a:hover{
+	text-decoration:underline;
+}
+/*end site map CCSS*/
