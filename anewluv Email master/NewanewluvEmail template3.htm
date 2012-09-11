@@ -10,7 +10,7 @@
         {
              bgcolor="#ffffff";
              font-family: Arial,Helvetica,sans-serif; 
-             font-size: 12px;
+             font-size: 12px !important;
              color: #0c52b2;
              
         }
@@ -38,29 +38,30 @@
             border-bottom-color: #6bb5ff;
             border-left-color: #6bb5ff;
             border-radius: 5px 5px 0px 0px;
-            padding: 10px 10px 10px 10px;
+            padding: 10px 0px 0px 10px;
             vertical-align: top;
             
         }
         .templatebody
         {
             border-top-width: 1px;
-            border-right-width: 1px; 
+            border-right-width: 1px;
             border-bottom-width: 1px;
-            border-left-width: 1px; 
-            border-top-style: solid; 
-            border-right-style: solid; 
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
             border-bottom-style: none;
-            border-left-style: solid; 
-            border-top-color: #6bb5ff; 
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
             border-right-color: #6bb5ff;
             border-bottom-color: #6bb5ff;
-             border-left-color: #6bb5ff;
-             
+            border-left-color: #6bb5ff;
+            position: relative;
+            z-index: -1;
         }
         .templatebodygradient
         {
-            background: background: #a0d8ef;
+             background: background: #a0d8ef;
                         /* old browsers */
             background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 17%, #feffff 100%); /* ff3.6+ */
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d8ef), color-stop(17%,#ddf1f9), color-stop(100%,#feffff));
@@ -70,6 +71,7 @@
             background: -ms-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* ie10+ */
             background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* w3c */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
+            
         }
         .footer
         {
@@ -89,6 +91,29 @@
             text-align: left;  
             padding: 10px 10px 10px 10px;
                     
+            }
+            .tab
+            {
+                border-top-width: 1px;
+                border-right-width: 1px;
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-top-style: solid;
+                border-right-style: solid;
+                border-bottom-style: none;
+                border-left-style: solid;
+                border-top-color: #6bb5ff;
+                border-right-color: #6bb5ff;
+                border-bottom-color: #6bb5ff;
+                border-left-color: #6bb5ff;
+                border-radius: 5px 5px 0px 0px;
+                padding: 10px 10px 10px 10px;
+                vertical-align: top;
+                background-color:#a0d8ef;
+            }
+            .tab a
+            {           
+                color:White;
             }
     </style>
 </head>
@@ -110,6 +135,32 @@
                             <tr>
                                 <td>
                                     <img alt="A Newlove" src="images/anewluv.jpg" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <table>
+                                        <tr>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">My Profile</a>
+                                            </td>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">Messages</a>
+                                            </td>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">Friend</a>
+                                            </td>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">Chat</a>
+                                            </td>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">Browse</a>
+                                            </td>
+                                            <td class="tab">
+                                                <a href="#" style="text-decoration: none">Search</a>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </td>
                             </tr>
                         </tbody>
@@ -264,7 +315,7 @@
                                                                                                 </td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td  height="30">
+                                                                                                <td height="30">
                                                                                                     <a target="_blank" href="#">
                                                                                                         <img src="images/LikeIcon.png" alt="chat" />
                                                                                                     </a>
@@ -362,7 +413,7 @@
                                                                                                 </td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td  height="30">
+                                                                                                <td height="30">
                                                                                                     <a target="_blank" href="#">
                                                                                                         <img src="images/LikeIcon.png" alt="chat" />
                                                                                                     </a>
@@ -460,7 +511,7 @@
                                                                                                 </td>
                                                                                             </tr>
                                                                                             <tr>
-                                                                                                <td  height="30">
+                                                                                                <td height="30">
                                                                                                     <a target="_blank" href="#">
                                                                                                         <img src="images/LikeIcon.png" alt="chat" />
                                                                                                     </a>
