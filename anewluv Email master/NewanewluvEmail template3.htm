@@ -89,32 +89,87 @@
             border-left-color: #6bb5ff; 
             border-radius: 0px 0px 5px 5px;
             text-align: left;  
+            padding: 10px 10px 10px 10px;                    
+        }
+        .tab
+        {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: none;
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
+            border-right-color: #6bb5ff;
+            border-bottom-color: #6bb5ff;
+            border-left-color: #6bb5ff;
+            border-radius: 5px 5px 0px 0px;
             padding: 10px 10px 10px 10px;
-                    
-            }
-            .tab
-            {
-                border-top-width: 1px;
-                border-right-width: 1px;
-                border-bottom-width: 1px;
-                border-left-width: 1px;
-                border-top-style: solid;
-                border-right-style: solid;
-                border-bottom-style: none;
-                border-left-style: solid;
-                border-top-color: #6bb5ff;
-                border-right-color: #6bb5ff;
-                border-bottom-color: #6bb5ff;
-                border-left-color: #6bb5ff;
-                border-radius: 5px 5px 0px 0px;
-                padding: 10px 10px 10px 10px;
-                vertical-align: top;
-                background-color:#a0d8ef;
-            }
-            .tab a
-            {           
-                color:White;
-            }
+            vertical-align: top;
+            background-color:#a0d8ef;
+        }
+        .tab a
+        {           
+            color:White;
+        }
+            
+        .newsHeader
+        {                
+            padding:0px 10px 10px 0px;
+        }
+            
+        .news
+        {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
+            border-right-color: #6bb5ff;
+            border-bottom-color: #6bb5ff;
+            border-left-color: #6bb5ff;
+            padding:10px 10px 10px 10px;
+            background-color:#ffffff;
+        }
+            
+        .newsfooter
+        {                
+            padding: 10px 10px 0px 0px;
+        }
+        .newsbody
+        {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
+            border-right-color: #6bb5ff;
+            border-bottom-color: #6bb5ff;
+            border-left-color: #6bb5ff;
+                        
+            padding: 10px 20px 5px 20px;
+             background: background: #a0d8ef;
+                        /* old browsers */
+            background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 17%, #feffff 100%); /* ff3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d8ef), color-stop(17%,#ddf1f9), color-stop(100%,#feffff));
+                        /* chrome,safari4+ */
+            background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* chrome10+,safari5.1+ */
+            background: -o-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* opera 11.10+ */
+            background: -ms-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* ie10+ */
+            background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* w3c */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
+            
+        }
     </style>
 </head>
 <body>
@@ -562,17 +617,17 @@
                                     <table width="100%" height="100%" cellpadding="5" align="center">
                                         <tbody>
                                             <tr>
-                                                <td valign="top">
+                                                <td valign="top" class="newsbody">
                                                     <table height="100%" cellspacing="0" cellpadding="0">
                                                         <tbody>
                                                             <tr>
-                                                                <td height="20" bgcolor="#666666" background="images/bottom_header_bg.gif" style="padding-left: 5px">
+                                                                <td height="20" class="newsHeader">
                                                                     <h3 style="margin: 0;">
                                                                         <font face="Arial">SpotLighted Member</font></h3>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td valign="top" style="padding: 10px 10px 10px 10px" bgcolor="#f6f5f0">
+                                                                <td valign="top" class="news">
                                                                     <table width="100%">
                                                                         <tbody>
                                                                             <tr>
@@ -600,12 +655,12 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td height="23" bgcolor="#ebebe3">
+                                                                <td height="23" class="newsfooter">
                                                                     <table>
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td style="padding-left: 5px">
-                                                                                    <img border="0" src="images/bottom_bullet.gif">&nbsp;&nbsp;<a target="_blank" href="#"><b>View
+                                                                                <td>
+                                                                                    <img border="0" src="images/bottom_bullet.gif" />&nbsp;&nbsp;<a target="_blank" href="#"><b>View
                                                                                         this member</b></a>
                                                                                 </td>
                                                                             </tr>
@@ -618,17 +673,22 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td width="270" valign="top" align="right">
+                                                <td style="padding: 0px; margin: 0px" colspan="3">
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="newsbody">
                                                     <table width="100%" height="100%" cellspacing="0" cellpadding="0">
                                                         <tbody>
                                                             <tr>
-                                                                <td height="20" bgcolor="#666666" background="images/bottom_header_bg.gif" style="padding-left: 5px">
+                                                                <td height="20" class="newsHeader">
                                                                     <h3 style="margin: 0;">
                                                                         <font face="Arial">A Newluv News</font></h3>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td valign="top" bgcolor="#f6f5f0" style="padding: 10px 10px 10px 10px">
+                                                                <td valign="top" class="news">
                                                                     <table cellspacing="0" cellpadding="0">
                                                                         <tbody>
                                                                             <tr>
@@ -647,12 +707,12 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td height="20" bgcolor="#ebebe3">
+                                                                <td height="23" class="newsfooter">
                                                                     <table>
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td style="padding-left: 5px">
-                                                                                    <img border="0" src="images/bottom_bullet.gif">&nbsp;&nbsp;<a target="_blank" href="#"><b>Read
+                                                                                <td>
+                                                                                    <img border="0" src="images/bottom_bullet.gif" />&nbsp;&nbsp;<a target="_blank" href="#"><b>Read
                                                                                         More</b></a>
                                                                                 </td>
                                                                             </tr>
@@ -662,6 +722,11 @@
                                                             </tr>
                                                         </tbody>
                                                     </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 0px; margin: 0px" colspan="3">
+                                                    &nbsp;
                                                 </td>
                                             </tr>
                                         </tbody>
