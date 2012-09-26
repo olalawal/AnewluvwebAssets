@@ -10,7 +10,7 @@
         {
              bgcolor="#ffffff";
              font-family: Arial,Helvetica,sans-serif; 
-             font-size: 12px !important;
+             font-size: 12px;
              color: #0c52b2;
              
         }
@@ -62,15 +62,17 @@
         .templatebodygradient
         {
              background: background: #a0d8ef;
-                        /* old browsers */
-            background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 17%, #feffff 100%); /* ff3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d8ef), color-stop(17%,#ddf1f9), color-stop(100%,#feffff));
+             
+                        /* old browsers */            
+            background: -moz-linear-gradient(top,  #F6FBFD 0%, #F6FBFD 17%, #feffff 100%); /* ff3.6+ */
+            
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EAF6FB), color-stop(17%,#EAF6FB), color-stop(100%,#feffff));
                         /* chrome,safari4+ */
-            background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* chrome10+,safari5.1+ */
-            background: -o-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* opera 11.10+ */
-            background: -ms-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* ie10+ */
-            background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* w3c */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
+            background: -webkit-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* chrome10+,safari5.1+ */
+            background: -o-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* opera 11.10+ */
+            background: -ms-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* ie10+ */
+            background: linear-gradient(to bottom,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* w3c */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAF6FB', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
             
         }
         .footer
@@ -108,7 +110,8 @@
             border-radius: 5px 5px 0px 0px;
             padding: 10px 10px 10px 10px;
             vertical-align: top;
-            background-color:#a0d8ef;
+            /*background-color:#a0d8ef;*/
+            background-color: #94C8FC;
         }
         .tab a
         {           
@@ -160,16 +163,73 @@
                         
             padding: 10px 20px 5px 20px;
              background: background: #a0d8ef;
-                        /* old browsers */
-            background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 17%, #feffff 100%); /* ff3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d8ef), color-stop(17%,#ddf1f9), color-stop(100%,#feffff));
-                        /* chrome,safari4+ */
-            background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* chrome10+,safari5.1+ */
-            background: -o-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* opera 11.10+ */
-            background: -ms-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* ie10+ */
-            background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 17%,#feffff 100%); /* w3c */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
+                                    /* old browsers */            
+            background: -moz-linear-gradient(top,  #F6FBFD 0%, #F6FBFD 17%, #feffff 100%); /* ff3.6+ */
             
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EAF6FB), color-stop(17%,#EAF6FB), color-stop(100%,#feffff));
+                        /* chrome,safari4+ */
+            background: -webkit-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* chrome10+,safari5.1+ */
+            background: -o-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* opera 11.10+ */
+            background: -ms-linear-gradient(top,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* ie10+ */
+            background: linear-gradient(to bottom,  #EAF6FB 0%,#F6FBFD 17%,#feffff 100%); /* w3c */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAF6FB', endColorstr='#feffff',GradientType=0 );/* ie6-9 */
+            
+        }
+        
+        .profileheader
+        {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: none;
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
+            border-right-color: #6bb5ff;
+            border-bottom-color: #6bb5ff;
+            border-left-color: #6bb5ff;
+            border-radius: 15px 15px 0px 0px;
+            padding: 10px 0px 0px 10px;
+            vertical-align: top;
+            width:500px;
+            padding:10px 10px 10px 10px;
+            background: url(&quot;&quot;) repeat-x 100% 0px #6bb5ff;
+            color:White;
+        }
+        .profilebody
+        {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-top-color: #6bb5ff;
+            border-right-color: #6bb5ff;
+            border-bottom-color: #6bb5ff;
+            border-left-color: #6bb5ff;
+            position: relative;
+            z-index: -1;
+            width:500px;
+            padding:10px 10px 10px 10px;
+            border-radius: 0px 0px 15px 15px;
+            background: url(&quot;&quot;) repeat-x 100% 0px white;
+        }
+        .profilesubheader
+        {
+            background: url(&quot;&quot;) repeat-x 100% 0px #6bb5ff;
+            color:White;
+            font-weight:bold;
+            font-size: 10x !important;
+            padding:5px 5px 5px 5px;
+        }
+        .profiletext
+        {
+            padding: 2px 2px 2px 5px;
         }
     </style>
 </head>
@@ -239,6 +299,7 @@
                                             <font style="font-size: 18px;"><b>Dear {0},</b></font><br />
                                         </p>
                                         <p class="lastNode">
+                                            <br />
                                             Thank you for uploading your photo to Anewluv.com Please allow up to 24 hours for
                                             your photo to be aproved.
                                         </p>
@@ -249,7 +310,7 @@
                                         <tbody>
                                             <tr>
                                                 <td align="right">
-                                                    <font size="3"><b>AnewLuv.com<br /> *Your Photo has been uploaded *</b></font>
+                                                    <font size="3"><b>Your Photo has been uploaded</b></font>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -338,6 +399,11 @@
                                                                     </table>
                                                                 </td>
                                                             </tr>
+                                                            <tr>
+                                                                <td style="padding: 0px; margin: 0px">
+                                                                    &nbsp;
+                                                                </td>
+                                                            </tr>
                                                         </tbody>
                                                     </table>
                                                 </td>
@@ -348,17 +414,17 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td valign="top" class="newsbody">
+                                                <td valign="top" style="padding: 0px 0px 0px 0px; margin: 0px" colspan="3">
                                                     <table height="100%" cellspacing="0" cellpadding="0">
                                                         <tbody>
                                                             <tr>
-                                                                <td height="20" class="newsHeader">
+                                                                <td class="profileheader">
                                                                     <h3 style="margin: 0;">
-                                                                        <font face="Arial">Your profile update</font></h3>
+                                                                        <font face="Arial">Your Profile Update</font></h3>
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td valign="top" class="news">
+                                                                <td valign="top" class="profilebody">
                                                                     <table width="100%">
                                                                         <tbody>
                                                                             <tr>
@@ -367,24 +433,110 @@
                                                                                         <img width="96" height="96" border="0" src="images/photo.jpg" style="border: 1px solid #6bb5ff;" /></a>
                                                                                 </td>
                                                                                 <td valign="top" align="left" style="padding-left: 10px">
-                                                                                    <a target="_blank" href="#"><b>JodieKicks</b></a>
-                                                                                    <br />
-                                                                                    23-year old
-                                                                                    <br />
-                                                                                    San Luis Obispo, California
-                                                                                </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td valign="top" style="padding-left: 5px" colspan="2">
-                                                                                    your profile is only {2}% complete<br />
-                                                                                    {3} users have viewed your profile
+                                                                                    <table width="100%">
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have not uploaded a profile photo
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                Your profile is {0}% complete
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profilesubheader">
+                                                                                                Details
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have not completed you basic profile settings
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have not complted your appearance profile settings
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have not completed your lifestyle settings
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have not completed your other settings
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profilesubheader">
+                                                                                                Activity Since you last logging in {DateTime}
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0} new mails , You have {0} new profile peeks
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0} new likes , You have {0} new interests
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0) new chat requests.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profilesubheader">
+                                                                                                Lifetime Activity
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0} mails , You have {0} profile peeks
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0} likes , You have {0} interests
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have {0) chat requests.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profilesubheader">
+                                                                                                Your Lifetime Activity
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have sent {0} mails , You have sent {0} profile peeks
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have sent {0} likes , You have sent {0} interests
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td class="profiletext">
+                                                                                                You have sent {0) chat requests.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
                                                                                 </td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                            <!--<tr>
                                                                 <td height="23" class="newsfooter">
                                                                     <table>
                                                                         <tbody>
@@ -397,7 +549,7 @@
                                                                         </tbody>
                                                                     </table>
                                                                 </td>
-                                                            </tr>
+                                                            </tr>-->
                                                         </tbody>
                                                     </table>
                                                 </td>
