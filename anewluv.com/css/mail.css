@@ -62,7 +62,7 @@ aside.headerAd  {
 	margin-top: 1px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 10px;
 	height: 114px;
@@ -78,7 +78,7 @@ html > body header.headerAd{
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 0px;
 	height: 115px;
@@ -124,7 +124,7 @@ aside.adBanner{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 40px;
 	height: 671px;
@@ -139,7 +139,7 @@ aside.bannerAd{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 80px;
 	height: 671px;
@@ -154,7 +154,7 @@ aside.adFooter{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 10px;
 	height: 123px;
@@ -165,7 +165,7 @@ aside.inboxMenu {
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 0px;
 	height: 406px;
@@ -273,7 +273,7 @@ html > body #inboxNavContainers {
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 406px;
@@ -726,7 +726,7 @@ html > body #inboxInfoDivinbox2 {
 	float: left;
 	margin-bottom: 0;
 	background-color: #fff;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 643px;

@@ -66,7 +66,7 @@ aside.headerAd {
 	margin-top: 1px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 10px;
 	height: 114px;
@@ -82,7 +82,7 @@ html > bodyheader.headerAd{
 	display:block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 0px;
 	height: 87px;
@@ -204,7 +204,7 @@ aside.adBanner{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 40px;
 	height: 671px;
@@ -219,7 +219,7 @@ html > body aside.adBanner {
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 671px;
@@ -679,7 +679,7 @@ aside.bannerAd{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 40px;
 	height: 671px;
@@ -694,7 +694,7 @@ aside.adFooter{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 1022px;
 	padding-top: 0px;
 	height: 123px;

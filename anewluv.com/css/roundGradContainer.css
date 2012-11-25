@@ -59,7 +59,7 @@ aside#Adbanner{
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 0px;
 	height: 818px;
@@ -79,7 +79,7 @@ aside#headerAd{
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 112px;
@@ -94,7 +94,7 @@ html > body aside#headerAd{
 	display: inline;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 603px;
@@ -109,7 +109,7 @@ html > body #body {
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 619px;
 	padding-top: 0px;
 	height: 97px;
@@ -595,7 +595,7 @@ aside#footerAd {
 	margin-top: 0px;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 620px;
 	padding-top: 0px;
 	height: 101px;
@@ -610,7 +610,7 @@ aside#bannerAd {
 	display: block;
 	float: left;
 	margin-bottom: 0;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 	width: 199px;
 	padding-top: 0px;
 	height: 818px;
