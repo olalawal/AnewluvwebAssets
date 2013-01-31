@@ -1,0 +1,61 @@
+#Chat .tblborder
+{
+    border: 1px solid gray;     
+}
+#Chat .tblborder tr td
+{    
+    padding: 2px 2px 2px 2px;
+}
+#Chat table table
+{
+    width:150px;
+    text-align:left;
+    font-family:Verdana  !important;
+    font-size:10px !important;    
+}
+.personlink
+{
+    text-decoration:none !important;
+    color:#000000;
+}
+.personlink table
+{
+    width:150px;
+    text-align:left;
+}
+
+.personlink table tr td
+{   
+    text-align:left;
+}
+.chtpersonimgcell
+{
+    width:30px;
+}
+.chtpersonnamecell
+{
+    width:100px;
+}
+.offlinestatus
+{
+    src: none;
+    height:7px;
+    width:7px;
+}
+.onlinestatus
+{
+    background: #ffffff url(../img/green-dot-icon.png) no-repeat;
+    height:7px;
+    width:7px;
+}
+.onlinemobilestatus
+{
+    background: #ffffff url(../img/mobile_icon_gray.gif) no-repeat;
+    height:12px;
+    width:12px;
+}
+
+.slider {
+float:right;
+border: 1px solid gray;     
+}
