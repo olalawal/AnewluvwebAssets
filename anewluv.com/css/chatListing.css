@@ -166,3 +166,37 @@
     float:right;
     margin-right: 10px;
 }
+
+
+
+
+
+.ItemActionButtons
+        {
+        }
+        .ItemActionButtons .SettingOptions
+        {
+            display: none;
+            list-style-type: none;
+            padding: 5px;
+            margin: 0;
+            border: 1px solid #DCDCDC;
+            background-color: #fff;
+            z-index: 999;
+            position: absolute;
+        }
+        .ItemActionButtons .SettingOptions li
+        {   
+            margin: 0;            
+            border: 1px solid #fff;
+            width:120px;
+        }
+        .ItemActionButtons .SettingOptions li:hover
+        {
+            cursor: pointer;
+            background-color: #DCDCDC;
+        }
+        .ItemActionButtons .SettingOptions li a
+        {
+            text-transform: none;
+        }

@@ -115,7 +115,7 @@
 <body>
     <table cellpadding="5" cellspacing="5">
         <tr>
-        <td valign="top">
+            <td valign="top">
                 <div id="main">
                     <aside class="headerAd">
           <!-- Added to toggle adds 1-27-2012 -->
@@ -467,7 +467,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                                         </td>
                                         <td valign="middle">
                                             <img id="lnkchatsetting" class="settingbutton" alt="setting" width="1" height="1"
-                                                src="img/spacer.gif" />
+                                                src="img/spacer.gif" onclick="ItemActionButtons.onSaveExtraClick.apply(this)" />
                                         </td>
                                         <td valign="middle">
                                             <img id="lnkChatminimised" class="tooglebutton" alt="minimise" width="1" height="1"
@@ -483,10 +483,21 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                     Chat (8)
                 </div>
             </td>
-           
         </tr>
     </table>
     <div id="chatwindow" class="slider">
+    </div>
+    <div class="ItemActionButtons">
+        <ul class="SettingOptions ui-corner-bottom" id="ChatListSettingOptions">
+            <li onclick="$('#ChatListSettingOptions').toggle(); ItemActionButtons.ChatfromDesktop.apply(this)">
+                Chat from Desktop</li>
+            <li onclick="$('#ChatListSettingOptions').toggle(); ItemActionButtons.ChatSounds.apply(this)">
+                Chat Sounds</li>
+            <li onclick="$('#ChatListSettingOptions').toggle(); ItemActionButtons.AdvanceSettings.apply(this)">
+                Advance Settings...</li>
+            <li onclick="$('#ChatListSettingOptions').toggle(); ItemActionButtons.TurnOffChat.apply(this)">
+                Turn Off Chat</li>
+        </ul>
     </div>
     <script>        $(function () {
             $("#SelectAll").click(function () {
@@ -523,7 +534,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
             $(".closebutton").click(function (e) {
                 var RecId = this.id.toString().replace("btnclose", "");
-                $("#tblChatBox" + RecId).hide();                
+                $("#tblChatBox" + RecId).hide();
                 e.stopPropagation();
             });
             return false;
@@ -552,6 +563,42 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
             $("#divchatminimisedbox" + RecId).hide();
             return false;
         }
+    </script>
+    <script type="text/javascript">
+
+        $(document).delegate('#lnkchatsetting', 'mouseleave', function () { setTimeout(function () { if (!ItemActionButtons.isHoverMenu) { $('#ChatListSettingOptions').hide(); } }, 100, 1) });
+        $(document).delegate('#ChatListSettingOptions', 'mouseenter', function () { ItemActionButtons.isHoverMenu = true; });
+        $(document).delegate('#ChatListSettingOptions', 'mouseleave', function () { $('#ChatListSettingOptions').hide(); ItemActionButtons.isHoverMenu = false; });
+
+        var $IsHoverExtraOptionsFlag = 0;
+        $(document).ready(function () {
+            $(".button").button();
+            $(".buttonset").buttonset();
+            $('#lnkchatsetting').button({ icons: { primary: "ui-icon-plusthick"} });
+            $('#ChatListSettingOptions li').addClass('ui-corner-all ui-widget');
+            $('#ChatListSettingOptions li').hover(
+            function () { $(this).addClass('ui-state-default'); },
+            function () { $(this).removeClass('ui-state-default'); }
+        );
+            $('#ChatListSettingOptions li').mousedown(function () { $(this).addClass('ui-state-active'); });
+            $('#ChatListSettingOptions li').mouseup(function () { $(this).removeClass('ui-state-active'); });
+        });
+
+        var ItemActionButtons = {
+            isHoverMenu: false,
+            onSaveExtraClick: function () {
+                $('#ChatListSettingOptions').toggle();
+                var btnLeft = $('#lnkchatsetting').offset().left - $('#ChatListSettingOptions').outerWidth() + $('#lnkchatsetting').outerWidth() + 10;
+                var btnTop = $('#lnkchatsetting').offset().top - $('#ChatListSettingOptions').outerHeight();
+                var btnWidth = $('#lnkchatsetting').outerWidth();
+                $('#ChatListSettingOptions').css('left', btnLeft).css('top', btnTop);
+            },
+            ChatfromDesktop: function () { },
+            ChatSounds: function () { },
+            AdvanceSettings: function () { },
+            TurnOffChat: function () { }
+        }
+
     </script>
 </body>
 </html>
