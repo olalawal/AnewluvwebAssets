@@ -2,7 +2,7 @@
 
 body {
 	background-color: #f5f6f7;
-	font-size: 62.5%;
+	font-size: 62.5% !important;
 	margin: 0;
 	padding: 0;
 }
