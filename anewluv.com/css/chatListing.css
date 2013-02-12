@@ -1,6 +1,16 @@
 #Chat
 {
     position: fixed;
+    top: 0px;
+    left: 83%;
+    background-color: lightGray;
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+#Chat span
+{
+    filter: alpha(opacity=100);
+    opacity: 1;
 }
 #Chat .tblborder
 {
@@ -77,11 +87,11 @@
 
 .slider
 {
-    width: 1040px;
+    width: 1050px;
     float: right;
     position: fixed;
     top: 70%;
-    height:255px;
+    height: 255px;
 }
 .chatbox
 {
@@ -89,6 +99,8 @@
     background: white;
     border: 1px solid gray;
     margin-right: 10px;
+    height: 280px;
+    width: 250px;
 }
 .chatbox tr th
 {
@@ -124,7 +136,6 @@
 }
 .tdchatlist
 {
-    height: 880px;
     overflow: scroll;
     vertical-align: top;
 }
@@ -141,6 +152,7 @@
     position: fixed;
     top: 97%;
     width: 100px;
+    left: 83%;
 }
 .chatcameraicon
 {
@@ -159,11 +171,11 @@
 {
     border: 1px solid gray;
     padding: 5px 5px 5px 5px;
-    background-color: lightBlue;    
-    width: 100px;    
-    position:relative;
-    top:96%;
-    float:right;
+    background-color: lightBlue;
+    width: 100px;
+    position: relative;
+    top: 97%;
+    float: right;
     margin-right: 10px;
 }
 
@@ -172,31 +184,37 @@
 
 
 .ItemActionButtons
-        {
-        }
-        .ItemActionButtons .SettingOptions
-        {
-            display: none;
-            list-style-type: none;
-            padding: 5px;
-            margin: 0;
-            border: 1px solid #DCDCDC;
-            background-color: #fff;
-            z-index: 999;
-            position: absolute;
-        }
-        .ItemActionButtons .SettingOptions li
-        {   
-            margin: 0;            
-            border: 1px solid #fff;
-            width:120px;
-        }
-        .ItemActionButtons .SettingOptions li:hover
-        {
-            cursor: pointer;
-            background-color: #DCDCDC;
-        }
-        .ItemActionButtons .SettingOptions li a
-        {
-            text-transform: none;
-        }
+{
+}
+.ItemActionButtons .SettingOptions
+{
+    display: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    z-index: 999;
+    position: absolute;
+}
+.ItemActionButtons .SettingOptions li
+{
+    margin: 0;
+    border: 1px solid #fff;
+    width: 120px;
+}
+.ItemActionButtons .SettingOptions li:hover
+{
+    cursor: pointer;
+    background-color: #DCDCDC;
+}
+.ItemActionButtons .SettingOptions li a
+{
+    text-transform: none;
+}
+.chattextbox
+{
+    width: 90%;
+    font-family: Verdana !important;
+    font-size: 10px !important;
+}
