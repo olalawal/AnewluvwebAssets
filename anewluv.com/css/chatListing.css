@@ -46,6 +46,11 @@
 {
     width: 30px;
 }
+.chtpersonimgcell img
+{
+    width:20px !important;
+    height:20px !important;
+}
 .chtpersonnamecell
 {
     width: 160px;
@@ -117,6 +122,15 @@
     height: 12px;
     width: 10px;
 }
+.chatboxsettingbutton
+{
+    background-image: url("../img/iconimages.png");
+    background-position: -292px -61px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 12px;
+    width: 10px;
+}
 .tooglebutton
 {
     background-image: url("../img/iconimages.png");
@@ -136,7 +150,7 @@
 }
 .tdchatlist
 {
-    overflow: scroll;
+    overflow: auto;
     vertical-align: top;
 }
 .tlbchatsearch
@@ -171,17 +185,12 @@
 {
     border: 1px solid gray;
     padding: 5px 5px 5px 5px;
-    background-color: lightBlue;
-    width: 100px;
+    background-color: lightBlue;    
     position: relative;
     top: 97%;
     float: right;
     margin-right: 10px;
 }
-
-
-
-
 
 .ItemActionButtons
 {
