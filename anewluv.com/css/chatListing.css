@@ -143,7 +143,7 @@
 .searchpersonbox
 {
     width: 150px;
-    height: 10px !important;
+    /*height: 10px !important;*/
     font-family: Verdana !important;
     font-size: 10px !important;
     margin-bottom: 0px !important;
@@ -187,7 +187,7 @@
     padding: 5px 5px 5px 5px;
     background-color: lightBlue;    
     position: relative;
-    top: 97%;
+    top: 95.5%;
     float: right;
     margin-right: 10px;
 }

@@ -205,9 +205,6 @@ $(document).ready(function () {
     });
 
 
-
-
-
     $(document).delegate('#lnkchatsetting', 'mouseleave', function () { setTimeout(function () { if (!ItemActionButtons.isHoverMenu) { $('#ChatListSettingOptions').hide(); } }, 100, 1) });
     $(document).delegate('#ChatListSettingOptions', 'mouseenter', function () { ItemActionButtons.isHoverMenu = true; });
     $(document).delegate('#ChatListSettingOptions', 'mouseleave', function () { $('#ChatListSettingOptions').hide(); ItemActionButtons.isHoverMenu = false; });
@@ -226,23 +223,25 @@ $(document).ready(function () {
         $('#ChatListSettingOptions li').mouseup(function () { $(this).removeClass('ui-state-active'); });
     });
 
-    var ItemActionButtons = {
-        isHoverMenu: false,
-        onSaveExtraClick: function () {
-            $('#ChatListSettingOptions').toggle();
-            var btnLeft = $('#lnkchatsetting').offset().left - $('#ChatListSettingOptions').outerWidth() + $('#lnkchatsetting').outerWidth() + 10;
-            var btnTop = $('#lnkchatsetting').offset().top - $('#ChatListSettingOptions').outerHeight();
-            var btnWidth = $('#lnkchatsetting').outerWidth();
-            $('#ChatListSettingOptions').css('left', btnLeft).css('top', btnTop);
-        },
-        ChatfromDesktop: function () { },
-        ChatSounds: function () { },
-        AdvanceSettings: function () { },
-        TurnOffChat: function () { }
-    }
+    
 
 });
 
+
+var ItemActionButtons = {
+    isHoverMenu: false,
+    onSaveExtraClick: function () {
+        $('#ChatListSettingOptions').toggle();
+        var btnLeft = $('#lnkchatsetting').offset().left - $('#ChatListSettingOptions').outerWidth() + $('#lnkchatsetting').outerWidth() + 10;
+        var btnTop = $('#lnkchatsetting').offset().top - $('#ChatListSettingOptions').outerHeight();
+        var btnWidth = $('#lnkchatsetting').outerWidth();
+        $('#ChatListSettingOptions').css('left', btnLeft).css('top', btnTop);
+    },
+    ChatfromDesktop: function () { },
+    ChatSounds: function () { },
+    AdvanceSettings: function () { },
+    TurnOffChat: function () { }
+}
 
 
 
