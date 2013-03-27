@@ -1,0 +1,176 @@
+create user steps 
+
+
+Apikey to use on IOS : 460ad6f3-8216-469f-9b1c-52cffa5d812c
+Apikey to use on Andriod : 460ad6f3-8216-469f-9b1c-52cffa5d812c
+
+header will be like 
+heade sample
+
+User-Agent: Fiddler
+Content-Type: text/json
+Host: localhost
+apkikey: 460ad6f3-8216-469f-9b1c-52cffa5d812c
+
+
+
+-go over the screens with with designer and the IOS dev
+
+-hash out things like how the UI will function
+
+
+Create user workflow
+
+
+* note all calls require API key
+
+
+Option A. Non Facebook or openID user
+
+-prompt to use location 
+
+-gather user data and fill out the RegisterModel/creatuser:
+
+
+-data validation :
+email address
+-----------
+
+ http://localhost/Shell.MVC2.Web.MembersService/MembersService.svc/Rest/checkifemailalreadyexists/{EMAILADDRESS}
+
+-returns a true if it exists i,e email address is invalid
+
+screenanem
+----------
+must be at least six chars , can contain special chars 
+
+http://localhost/Shell.MVC2.Web.MembersService/MembersService.svc/Rest/checkifscreennamealreadyexists/{SCREENAME}
+
+
+-reutrns true if screen name already exists -user must pick a new one
+
+username
+----------
+
+must be at least six chars , can contain special chars within reason 
+http://localhost/Shell.MVC2.Web.MembersService/MembersService.svc/Rest/checkifprofileidalreadyexists/{PROFILEID}
+
+- returnes true if usenrame already exists- user must pick a new one
+
+
+
+
+here is the JSON data needed
+
+{
+	"birthdate":"\/Date(928167600000-0500)\/",
+	"city":"String content",
+	"country":"String content",
+	"email":"String content",
+	"gender":"String content",
+	"isApproved":true,
+	"lattitude":1.26743233E+15,
+	"longitude":1.26743233E+15,
+	"openidIdentifer":"String content",
+	"openidProvidername":"String content",
+	"password":"String content",
+	"providerUserKey":{},
+	"screenname":"String content",
+	"securityAnswer":"String content",
+	"securityQuestion":"String content",
+	"stateprovince":"String content",
+	"status":0,
+	"username":"String content",
+	"zippostalcode":"String content"
+}
+
+-location data city,country,longitude,lattitude stateprovince - can be generated from phone 
+or use the geoservice to get that data.
+
+-if user opts to turn off gelocation on phone we still have to find a way to veryfy that the user enteres in 
+location data that matches what is on thier phone/tablet , so maybee not let them turn it off 
+
+-veryfy the geodata if manually entered in using the geoservice
+http://localhost/Shell.MVC2.Web.GeoService/GeoService.svc/Rest/verifyorupdateregistrationgeodata
+
+also if you do not have lat and long info you can get that data using this method.  Will provide sample calls in near future
+
+
+once everythin is verifed call 
+
+http://localhost/Shell.MVC2.Web.AuthenticationService/MembershipService.svc/Rest/CreateUser
+
+with the JSON body above and 
+
+if status is 0 on the return profile was created.
+
+
+Option B.  Facebook or openID user
+
+-pretty much same as above , difference is you call
+
+
+- get profileinformation after creation
+------------------------------------
+http://localhost/Shell.MVC2.Web.MembersService/MembersService.svc/Rest/getprofileidbyusername/{USERNAME}
+or 
+http://localhost/Shell.MVC2.Web.MembersService/MembersService.svc/Rest/getprofileidbyscreenname/{SCREENAME}
+
+
+
+then use the profileID information to populate photos below...
+
+
+
+
+photos - adding
+---------------------
+
+http://localhost/Shell.MVC2.Web.MediaService/PhotoService.svc/Rest/help/operations/addphotos
+
+multiple photos or one phot can be added with this call:
+
+Json body
+
+{
+	"autoupload":true,
+	"multiple":true,
+	"photosuploaded":[{
+		"approvalstatusid":2147483647,
+		"caption":"String content",
+		"creationdate":"\/Date(928167600000-0500)\/",
+		"image":[81,
+		109,
+		70,
+		122,
+		90,
+		83,
+		65,
+		50,
+		78,
+		67,
+		66,
+		84,
+		100,
+		72,
+		74,
+		108,
+		89,
+		87,
+		48,
+		61],
+		"imagename":"String content",
+		"imagetypeid":2147483647,
+		"photostatusid":2147483647,
+		"rejectionreasonid":2147483647,
+		"size":2147483647
+	}],
+	"profileid":2147483647
+}
+
+
+
+
+
+
+
