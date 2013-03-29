@@ -19,7 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script> 
-    <script src="js/chatListing.js"></script>   
+    <script src="js/chatbar.js"></script>   
     <script type="text/javascript">
         $(function () {
             $(".iconNavsInterests").click(function () {
@@ -346,6 +346,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                 $('#quikStatDetailBox input:checked').parents('#quikStatDetailBox').remove();
             });
         }); </script>
-        
+	<script type="text/javascript">
+        $("#divchat").chatbar();
+    </script>
 </body>
 </html>

@@ -1,3 +1,11 @@
+var element;
+(function($){        
+    $.fn.chatbar = function(){        
+		element = this;             
+	};        
+})(jQuery);  
+
+
 $(document).ready(function () {
     var lstPersons = [];
     var objPerson = {};
@@ -117,7 +125,7 @@ $(document).ready(function () {
         strHTML += "                Turn Off Chat</li>";
         strHTML += "        </ul>";
         strHTML += "    </div>";
-        $("#divchat").append(strHTML);
+        $(element).append(strHTML);
     }
 
 
@@ -138,9 +146,9 @@ $(document).ready(function () {
 
             ChatBoxHTML += "    <div class='ItemActionButtons'>";
             ChatBoxHTML += "        <ul class='SettingOptions ui-corner-bottom' id='ChatboxSettingOptions" + RecId + "'>";
-            ChatBoxHTML += "            <li onclick='$('#ChatboxSettingOptions" + RecId + "').toggle(); ItemActionButtons.ChatfromDesktop.apply(this)'>";
-            ChatBoxHTML += "                Upload Files...</li>";
-            ChatBoxHTML += "            <li onclick='$('#ChatboxSettingOptions" + RecId + "').toggle(); ItemActionButtons.ChatSounds.apply(this)'>";
+            ChatBoxHTML += "            <li load Files...</li>";
+            ChatBoxHTML += "            <li onclonclick='$('#ChatboxSettingOptions" + RecId + "').toggle(); ItemActionButtons.ChatfromDesktop.apply(this)'>";
+            ChatBoxHTML += "                Upick='$('#ChatboxSettingOptions" + RecId + "').toggle(); ItemActionButtons.ChatSounds.apply(this)'>";
             ChatBoxHTML += "                Add Friends to chat...</li>";
             ChatBoxHTML += "            <li onclick='$('#ChatboxSettingOptions" + RecId + "').toggle(); ItemActionButtons.AdvanceSettings.apply(this)'>";
             ChatBoxHTML += "                Turn off Chat for " + $("#lblPersonName" + RecId.toString()).text() + "</li>";
@@ -223,7 +231,7 @@ $(document).ready(function () {
         $('#ChatListSettingOptions li').mouseup(function () { $(this).removeClass('ui-state-active'); });
     });
 
-    
+
 
 });
 
@@ -242,6 +250,8 @@ var ItemActionButtons = {
     AdvanceSettings: function () { },
     TurnOffChat: function () { }
 }
+
+// chat.ui.js
 
 
 
