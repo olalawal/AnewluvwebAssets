@@ -10,19 +10,22 @@ heade sample
 
 User-Agent: Fiddler
 Content-Type: text/json
-Host: localhost
+Host: 173.160.122.195
 Authorization: Y2FzZTpkcml2ZTMzMw==
 
 
-http://localhost/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhoiaminterestedin/2/1/4 
+http://173.160.122.195/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhoiaminterestedin/1/1/4 
 
 
 
 peek stuff
 
-http://localhost/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhoipeekedatcount/2
+http://173.160.122.195/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhoipeekedatcount/1
+
+
+http://173.160.122.195/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhopeekedatmecount/1
 
 
 geostuff
 --------------------
-http://localhost/Shell.MVC2.Web.GeoService/GeoService.svc/Rest/help/operations/getcountryidbycountryname/Unitedstates
+http://173.160.122.195/Shell.MVC2.Web.GeoService/GeoService.svc/Rest/help/operations/getcountryidbycountryname/Unitedstates
