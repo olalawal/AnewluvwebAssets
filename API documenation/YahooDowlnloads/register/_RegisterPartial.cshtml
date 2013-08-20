@@ -1,0 +1,177 @@
+﻿				@model registermodel    
+
+           
+
+
+
+                
+                <div id="RegistrationContainer">
+                <form>
+
+                 <div class="large-12 columns">
+                      <div class="row">
+                        <div class="small-3 columns">
+                          <label for="right-label" class="right inline"  style="font-size:120%">User Name</label>
+                        </div>
+                        <div class="small-9 columns">
+                        <input type="text" name="User Name" style="width: 200px; margin-left :34px;" placeholder="Enter a user name " data-bind="value: username" />
+                        
+                        </div>
+                      </div>
+                    </div>
+
+			     <div class="large-12 columns">
+                      <div class="row">
+                        <div class="small-3 columns">
+                          <label for="right-label" class="right inline"  style="font-size:120%">Email Address</label>
+                        </div>
+                        <div class="small-9 columns">
+                        <input type="email" name="Email Address" style="width: 200px;margin-left :18px;"  placeholder="Enter an email address" data-bind="value: emailaddress" />
+                        
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Confirm Email </label>
+                        </div>
+                        <div class="large-9 columns">
+                      <input type="text" name="Confirm Email" style="width: 200px;margin-left :20px;"   placeholder="Enter same email address"  data-bind="value: confirmemailaddress" />
+                        
+                        </div>
+                      </div>
+                    </div>
+    
+                   <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline"  style="font-size:120%" >Date of Birth</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :10px; font-size :120%">
+                      <input type="date" data-bind="kendoDatePicker: { value: birthdate }"   style="height:27px;width: 200px; margin-left :20px;" />
+                        
+                        </div>
+                      </div>
+                    </div>
+
+
+                    
+                   <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline"  style="font-size:120%" >Gender</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :42px;font-size: 150%;">
+                          <input data-bind="kendoDropDownList: { dataTextField: 'description', dataValueField: 'id', data: genders, value: gender }" style="width: 200px;margin-left :15px;" />
+                      
+                        
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Password</label>
+                        </div>
+                        <div class="large-9 columns"  style="margin-left :40px;">
+                  	<input  name="Password" style="width: 200px;"  placeholder="Enter password"  data-bind="value: password" type="password" data-bind="value: password"  />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Confirm Password </label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :0px;">
+                    	<input name="TextField_win_Reg" style="width: 200px;margin-left : -5px;"  placeholder="Enter same password"  data-bind="value: confirmpassword" type="password" data-bind="value: confirmpassword" />                        
+                        </div>
+                      </div>
+                    </div>              
+                           
+                           
+                           <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Country</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :56px;font-size: 150%; " >                    	
+                           <input data-bind="kendoComboBox: { dataTextField: 'country', dataValueField: 'id', data: countries, value: selectedcountry, isOpen: false, enabled: true  }" style="width: 200px;" />
+                           @*<hr/>
+                           for testing
+                            Selected: <strong data-bind="text: selectedcountry"> </strong>
+                           <hr/>*@
+
+                        </div>
+                      </div>
+                    </div>   
+                      
+                              
+                           <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">City</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :77px;font-size: 150%;" >
+                    	     <input data-bind="kendoComboBox: { dataTextField: 'city', dataValueField: 'id', data: cities, value: selectedcity, isOpen: false, enabled: true  }" style="width: 200px;" />
+                           @*<hr/>
+                           for testing
+                            Selected: <strong data-bind="text: selectedcity"> </strong>
+                           <hr/>*@
+                        
+                        </div>
+                      </div>
+                    </div>   
+
+
+                            
+                           <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Zip/Postal</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :42px;font-size: 150%;" >
+                    	 
+                            <input data-bind="kendoComboBox: { dataTextField: 'ziporpostal', dataValueField: 'id', data: ziporpostalcodes, value: selectedziporpostalcode, isOpen: false, enabled: true  }" style="width: 200px;" />
+                           @*<hr/>
+                           fortesting
+                            Selected: <strong data-bind="text: selectedziporpostalcode"> </strong>
+                           <hr/>*@
+                        </div>
+                      </div>
+                    </div>   
+                                       
+                                       <div class="large-12 columns">
+                      <div class="row">
+                        <div class="large-3 columns">
+                          <label for="right-label" class="right inline" style="font-size:120%">Screen Name</label>
+                        </div>
+                        <div class="large-9 columns" style="margin-left :20px;font-size: 120%;" >
+                  <input type="text" name="TextField_win_Reg" style="width: 200px;"  placeholder="Enter a screen name"  data-bind="value: screenname" />
+                        
+                        </div>
+                      </div>
+                    </div>              
+                                         
+                                    
+                   
+                    
+					<div id="saveRegBtnContainer">
+                     <button class="button" value="Submit" type="submit" data-bind="submit: create" >Submit this page</button>
+					</div>
+					<div id="cancelRegBtnContainer">
+                                        <button class="button secondary" onclick="javascript:history.go(-1);return false;" type="submit">Cancel And Return</button>
+<div class="clearFloat"></div>
+					</div>
+                     <div class="Txt_bottomRound ">
+					
+						<p class="lastNode"><a href="Landing_Page.html" title="Back toSign Up Page">Back to  Join Page</a>
+					</p>
+				</div>
+                </form>
+
+				</div>
