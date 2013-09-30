@@ -20,12 +20,12 @@
 
 
     var messageHistory = [],
-        memberactionurl = "http://" + currentip + "/MemberActionsService/MemberActionsService.svc/Rest/",
-        lookupserviceurl = " http://" + currentip + "/Common/LookupService.svc/Rest/",
-        membermapperurl = "http://" + currentip + "/membersservice/MembersMapperService.svc/Rest/",
-        memberserviceurl = "http://" + currentip + "/MembersService/MembersService.svc/Rest/",
-        membershipserviceurl = "http://" + currentip + "/AuthenticationService/MembershipService.svc/Rest/",
-        geoserviceurl = "http://" + currentip + "/GeoService/GeoService.svc/Rest/",
+        memberactionurl = "http://" + currentip + "/Anewluv.Web.MemberActionsService/MemberActionsService.svc/Rest/",
+        lookupserviceurl = " http://" + currentip + "/Anewluv.Web.CommonService/LookupService.svc/Rest/",
+        membermapperurl = "http://" + currentip + "/Anewluv.Web.MembersService/MembersMapperService.svc/Rest/",
+        memberserviceurl = "http://" + currentip + "/Anewluv.Web.MembersService/MembersService.svc/Rest/",
+        membershipserviceurl = "http://" + currentip + "/Anewluv.Web.AuthenticationService/MembershipService.svc/Rest/",
+        geoserviceurl = "http://" + currentip + "/Anewluv.Web.GeoService/GeoService.svc/Rest/",
         historyLocation = 0,
         originalTitle = document.title,
         unread = 0,
