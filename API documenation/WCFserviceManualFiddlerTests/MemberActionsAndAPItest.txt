@@ -2,19 +2,27 @@ Tests of MemberActions
 
 (using case:drive333)
 
-url for encoding passwords
-http://www.motobit.com/util/base64-decoder-encoder.asp
 
-
-heade sample
+header sample
 
 User-Agent: Fiddler
 Content-Type: text/json
-Host: 173.160.122.195
-Authorization: Y2FzZTpkcml2ZTMzMw==
+Apikey : f0e1a34d-54c1-460b-bdf8-0b576e95e8be
 
 
-http://173.160.122.195/Shell.MVC2.Web.MemberActionsService/MemberActionsService.svc/Rest/getwhoiaminterestedin/1/1/4 
+get member data url 
+http://localhost/Anewluv.Web.Services.MemberMapper/MembersMapperService.svc/Rest/getmembersearchviewmodel
+
+json body
+{
+	
+	"modeltomap":{	
+		"id":1		
+	},
+
+	"profileid":1,
+	
+}
 
 
 
