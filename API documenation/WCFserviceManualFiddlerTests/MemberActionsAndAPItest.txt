@@ -7,7 +7,26 @@ header sample
 
 User-Agent: Fiddler
 Content-Type: text/json
-Apikey : f0e1a34d-54c1-460b-bdf8-0b576e95e8be
+Apikey : aadc13d8-fdf8-4865-bfac-0517c0b1b659
+
+
+Sample calls
+--------------------
+
+check if profile is activated
+
+
+http://173.160.122.195/Anewluv.Web.Services.Authentication/AuthenticationService.svc/rest/checkifprofileisactivated
+
+Json body
+
+{
+	"username":"case"
+	
+}
+
+
+
 
 
 get member data url 
@@ -23,6 +42,9 @@ json body
 	"profileid":1,
 	
 }
+
+
+
 
 
 
