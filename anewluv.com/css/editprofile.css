@@ -124,3 +124,19 @@ margin:0 !important;
    background:#fff ;
    text-align: center;
 }
+label{
+ font-weight:normal;
+}
+.rightTxt p {
+ text-align:center;
+}
+.DescribeEdit{
+ width:100%;
+ 
+}
+.rightTxt p 
+{
+ font-size:16px !important;
+ line-height: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
