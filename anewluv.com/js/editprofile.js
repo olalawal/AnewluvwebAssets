@@ -24,13 +24,13 @@ $('.menu-hide-show').click(function(){
   if ( $('.col-sm-4').css('display') == 'none' ){
     $('.col-sm-4').show("fast");
 	$('.col-sm-8').css("width","66%");
-	 $('.profileBox').prependTo(".leftArea");
+	 
   }
   else  
   {
      $('.col-sm-4').hide("fast");
 	 $('.col-sm-8').css("width","100%");
-	 $('.profileBox').prependTo(".col-sm-8");
+	 
 	
   }
    
