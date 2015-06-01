@@ -106,6 +106,7 @@ a:hover,a:visited,a:active {
  font-size:23px;
  font-family: Trebuchet MS,Arial, Helvetica, sans-serif;
  text-shadow:5px 3px 6px #000;
+  margin-top: 13px;
 }
 a.menu-selected{
    background-color: #6699FF !important;
@@ -118,6 +119,7 @@ margin:0 !important;
  text-align:center;
  font-family: Arial, Helvetica, sans-serif;
  color: #000;
+
  
 }
 .selectBox{
