@@ -153,3 +153,16 @@ label{
  font-family: Arial, Helvetica, sans-serif;
 }
 p.lastNode a{   font-size: 14px;}
+
+.rightBlock h2
+{
+   margin-top: 0px; 
+  margin-bottom: 0px;
+}
+.checkbox-items h2
+{
+margin-top:10px;
+}
+.rightBlock  ul{
+margin-bottom:0px;
+}

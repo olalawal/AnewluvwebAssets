@@ -6290,9 +6290,9 @@ html > body .inLinkDirectory{
 
 .leftArea { 
 	display:block;
-	border-right:1px solid #69F;
+	 
 	margin-right:-10px;
-	min-height:840px;
+	 
 }
 .profileBox { 
  padding:10px;
@@ -6329,9 +6329,9 @@ display:block;
 }
 .rightBlock { 
 	display:block;
-	margin-top:10px;
+	 
 	text-align:left;
-	padding-right:10px;
+	 
 }
 .rightBlock h2 { 
 	font-weight:bold;
@@ -6341,11 +6341,7 @@ display:block;
 .rightBlock select { 
  width:100%;
 }
-.selectBox { 
-	padding:10px;
-	background:#e5e5e5;
-	margin-bottom:10px;
-}
+ 
 .selectBox h3 {
 	text-align:left;
 	font-size:12px;
