@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+/*html5 display rule*/
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+#main {
+	margin: 0 auto;
+	width: 1024px;
+}
+#mainHeader {
+	margin-left: 1px;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	/*border: 1px solid #000;*/
+	width: 1020px;
+	padding-top: 0px;
+	height: 108px;
+	background-image: url(../images/headerPngClear.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*position:relative;*/
+}
+/*html > body #mainHeader {
+	height: auto;
+	min-height: 107px;
+}*/
+a.homeMembers{
+	position:absolute;
+	left: 28px;
+	top: 8px;
+	padding:20px 105px 20px 80px;
+	text-indent:-9999px;
+}
+.handleIdMaster {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 16px;
+	margin-top: 88px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+.topNav {
+	width:600px;
+	height:50px;
+	/*border: 1px solid #teal;*/
+	margin-right: 4px;
+	margin-top: 58px;
+	float: right;
+	margin-bottom: 0;
+	/*height:auto;*/
+	
+}
+.topNav a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+	color: #4c8acb;
+	line-height: 120%;
+	text-decoration:none;
+	
+}
+.topNav a:hover{
+	color: #fb6767;
+	text-decoration:none;
+	
+}
+#mainFooter {
+	margin-left: 1px;
+	margin-top: 595px;
+	float: left;
+	margin-bottom: 0;
+	background-color: #fff;
+	border: none;
+	width: 1020px;
+	padding-top: 0px;
+	height: 98px;
+}
+html > body #mainFooter {
+	height: auto;
+	min-height: 97px;
+}
+#mainFooter a{
+	font-size: 100%;
+	color: #000;
+	font-weight: bold;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+#mainFooter a:hover{
+	color: #03F;
+	
+}
+.footerNav {
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 171px;
+	margin-top: 6px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+}
+/*.topNav ul{
+  float:right;	
+}*/
+/*.navTop{
+	border: 1px solid #000;*/
+	
+	
+	
+
+.navBttm{
+	/*border: 1px solid #orange;*/
+	margin-top:4px;
+	 overflow:hidden;
+}
+.navTop,.navBttm{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	
+	float:right;
+	
+}
+.navTop li{
+	margin-top:4px;
+	margin-left: 8px;
+	display:inline-block;
+	
+}
+.navBttm li{
+	margin-top:14px;
+	margin-left: 8px;
+	display:inline-block;
+	
+}
+.footerNav{
+	margin:0;
+	padding:0;
+	display:block;
+}
+ .footerNav li{
+	list-style-type:none;
+	margin-top:10px;
+	text-align:left;
+	margin-right: 80px;
+}
+.footerNav li a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: left;
+	color: #000;
+	line-height: 120%;
+	
+}
+.footerLinkContainer{
+	width: 930px;
+	height:80px;
+	margin-left:85px;
+	margin-right:auto;
+	/*border: 1px solid #000;*/
+}
+.navBttm{
+	margin-bottom:0;
+   padding: 0;
+   outline:none;
+   /*overflow:hidden;*/
+    
+  
+}
+/*.navBttm ul{
+	 display:block;
+	
+ }*/
+  
+ .navBttm li{ 
+ list-style:none; 
+ float:left;
+/* opacity: .9; */
+
+ }
+ 
+ .navBttm li a:link, .navBttm li a:visited { 
+ display:block; text-decoration:none;  
+ 
+ margin:0;
+  border-right: 1px solid #fff; 
+  }
+  
+  .navBttm li a:hover { 
+  color: #fb6767;
+ text-decoration:underline;
+
+ 
+   }
+   /*style the sub menu*/ 
+   .navBttm  li ul {
+	    position:absolute; 
+		visibility:hidden; 
+		border-top:1px solid #fff; 
+		margin:0; padding:0;
+	
+		
+		
+		 }
+   
+   .navBttm li ul li { 
+ 
+   display:inline; 
+   float:none; 
+   } 
+   .navBttm li ul li a:link, .navBttm  li ul li a:visited { 
+   background-color:#6bb5ff; width:auto;
+  color:#fff;
+   height:20px;
+  /* margin-top:4px;*/
+   /*padding: 2px;*/
+  
+   } 
+   .navBttm  li ul li a:hover { 
+   background-color:#6bb5ff; 
+   color:#FFF;
+  /*  margin-top:4px;*/
+	
+   }

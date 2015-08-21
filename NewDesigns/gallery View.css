@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+#main {
+	margin: 0 auto;
+	width: 1024px;
+}
+#aside2 {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #0ff;
+	width: 97px;
+	padding-top: 0px;
+	height: 1179px;
+}
+html > body #aside2 {
+	height: auto;
+	min-height: 1178px;
+}
+#colwrap1 {
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 715px;
+}
+#headerAdMain {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 713px;
+	padding-top: 0px;
+	height: 109px;
+}
+html > body #headerAdMain {
+	height: auto;
+	min-height: 108px;
+}
+#GallerybodyDiv {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 713px;
+	padding-top: 0px;
+	height: 954px;
+}
+html > body #GallerybodyDiv {
+	height: auto;
+	min-height: 953px;
+}
+#postBoardDiv {
+	margin-left: 0px;
+	margin-top: -1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 712px;
+	padding-top: 0px;
+	height: 104px;
+}
+html > body #postBoardDiv {
+	height: auto;
+	min-height: 103px;
+}
+/*gallery pic*/
+#picFrameGallery {
+	margin-left: 0px;
+	margin-top: 4px;
+	float: left;
+	margin-bottom: 0;
+	/*border: 2px solid #000;*/
+	width: 138px;
+	padding-top: 0px;
+	height: 167px;
+}
+html > body #picFrameGallery{
+	height: auto;
+	min-height: 166px;
+}
+#GallerypicDivOuter {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: iblock;
+	/*float: left;*/
+	margin-bottom: 0;
+	border: 2px solid #000;
+	width: 126px;
+	padding-top: 0px;
+	height: 167px;
+	overflow:hidden;
+	-moz-box-shadow:0px 0px 10px 3px #999999;
+   -webkit-box-shadow:0px 0px 10px 3px  #999999;
+    box-shadow:0px 0px 10px 3px #999999;
+}
+html > body #GallerypicDivOuter {
+	/*height: auto;*/
+	min-height: 166px;
+}
+#GallerypicDivInner {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 95px;
+	padding-top: 0px;
+	height: 95px;
+	
+}
+html > body #GallerypicDivInner {
+	height: auto;
+	min-height: 94px;
+}
+#GallerynameWrap {
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 1px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 126px;
+	padding-top: 0px;
+	height: 18px;
+	overflow:hidden;
+}
+html > body #GallerynameWrap {
+	height: auto;
+	min-height: 17px;
+}
+.NameGallery {
+	font-family: 'Cooper Std Black', Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	text-align: center;
+	color: #6bd9ff;
+	line-height: 120%;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	/*margin-left: 49px;*/
+	margin-top: 1px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+.GalleryAgeCityActiveWrap {
+	text-align:center;
+	margin-left: 0px;
+	margin-top: 0px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	/*border: 1px solid #000;*/
+	width: 126px;
+	padding-top: 0px;
+	height: 18px;
+	overflow:hidden;
+}
+html > body .GalleryAgeCityActiveWrap {
+	height: auto;
+	min-height: 17px;
+}
+/*.00-Gallery {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 17px;
+	margin-top: 1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}*/
+.My_CityGallery {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	/*margin-left: 10px;*/
+	margin-top: 1px;
+	display: inline-block;
+	/*float: left;*/
+	margin-bottom: 0;
+}
+/*#GalleryactiveWhenWrap {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 138px;
+	padding-top: 0px;
+	height: 17px;
+}
+html > body #GalleryactiveWhenWrap {
+	height: auto;
+	min-height: 16px;
+}*/
+.Active_within_suchGallery {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	text-align: center;
+	color: #000;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	margin-left: 18px;
+	margin-top: 1px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+}
+#galleryChatIcon {
+	/* [disabled]margin-left: 14px; */
+	margin-top: 2px;
+	margin-left:auto;
+	margin-right:2px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 0;
+	/* [disabled]border: 1px solid #000; */
+	width: 15px;
+	padding-top: 0px;
+	height: 13px;
+	cursor:pointer;
+	background-image: url(images/chatIconsSm.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/*html > body #galleryChatIcon {
+	height: auto;
+	min-height: 12px;
+}*/
+#galleryChatIcon:hover {
+	background-image: url(images/chatIconsSm.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#footerMainAd {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 713px;
+	padding-top: 0px;
+	height: 114px;
+}
+html > body #footerMainAd {
+	height: auto;
+	min-height: 113px;
+}
+#BannerAdMain {
+	margin-left: 1px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	border: 1px solid #000;
+	width: 207px;
+	padding-top: 0px;
+	height: 1179px;
+}
+html > body #BannerAdMain {
+	height: auto;
+	min-height: 1178px;
+}

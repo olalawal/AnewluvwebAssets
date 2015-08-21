@@ -1,0 +1,215 @@
+#signIn {
+	margin-left: 28px;
+	margin-top: 18px;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	/*background-color: #c9e9fb;*/
+	border: 1px solid #000;
+	width: 340px;
+	padding-top: 0px;
+	height: 359px;
+	border-radius: 8px;
+	position: absolute;
+	background: rgba(186,215,231,.65);/* Old Browsers */
+
+
+
+
+
+
+
+
+
+	background-moz-linear-gradient(top,rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186,215,231,.4)), color-stop(100%, rgba(201,233,251,0.65)));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(186,215,231,.4) 0%, rgba(201,233,251,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* IE 10+ */
+	background: linear-gradient(to bottom, rgba(186,215,231,.60) 0%, rgba(201,233,251,0.65) 100%);/* W3C */
+
+
+
+
+
+
+
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bad7e7', endColorstr='#c9e9fb', GradientType=0 )
+	 filter:alpha(opacity=50);
+	/* IE6-9 */
+	left: 590px;
+	top: 28px;
+
+}
+
+html > body #signIn{
+	height: 414px;
+	min-height: 360px;
+}
+/*#signInWrapper{
+	display:block;
+	border-radius: 8px;
+	position: absolute;
+	opacity:.5;
+}*/
+#wrapperFormSignIn{
+	margin:auto;
+	width:280px;
+	height:auto;
+	
+	
+}
+#logoSignUp{
+	/*border: 1px solid #000;*/
+	width: 315px;
+	height: 60px;
+	padding-top:8px;
+	text-align: center;
+	margin: auto;
+	/*background-image: url(../images/anewluvLogSignIn.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;*/
+	
+}
+#socMediaBtnSignUp{
+	/*border:1px solid #green;*/
+	width:316px;
+	height:48px;
+	text-align:center;
+	margin:auto;
+	margin-top:8px;
+	padding-left:4px;
+	
+}
+ul.socMediaBtns{
+	padding:0;
+	
+	
+}
+
+
+.spacer{
+	height:10px;
+}
+.FindSpecialLuvNow{
+	height: 24px;
+	
+	
+}
+#wrapperFormSignIn .navbar-text{
+	text-align:center;
+	
+	
+}
+
+.socMediaBtns li{ 
+     float:left;
+	 display:inline-block;
+	 width:42px;
+	 height:32px;
+	/* border:1px solid #0F9;*/
+	 margin-left:4px;
+	 margin-right:4px;
+	 margin-top:auto;
+	 margin-bottom:auto;
+	/* text-align:center;*/
+	 list-style-type:none;
+	 
+	 
+	
+}
+.signUpLinks1:hover{
+	background-image: url(../images/forgotPwdUnderline.png);
+	background-repeat: no-repeat;
+	background-position: center -1px;
+	z-index:9999;
+}
+.signUpLinks2:hover{
+	background-image: url(../images/dontHaveAcctUnderline.png);
+	background-repeat: no-repeat;
+	background-position: center -1px;
+	z-index:9999;
+}
+.btn-joinNowSignIn{
+background-color: #fc21ac;
+  border-color: #fc21ac;
+  color: #fff;
+  }
+.btn-joinNowSignIn:hover,
+.btn-joinNowSignIn:focus {
+	color: #fff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+.btn-joinNowSignIn:hover,
+.btn-joinNowSignIn:focus {
+  background-color: #e70394;
+}
+.btn-joinNowSignIn:active,
+.btn-joinNowSignIn.active,
+.btn-joinNowSignIn.active:hover {
+  background-color: #fc08a3;
+  border-color: #e70394;
+}
+.btn-joinNowSignIn.disabled:hover,
+.btn-joinNowSignIn.disabled:focus,
+.btn-joinNowSignIn.disabled:active,
+.btn-joinNowSignIn.disabled.active,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:hover,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:focus,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:active,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn.active {
+  background-color: #fc21ac;
+  border-color: #fc21ac;
+}
+
+/*.img-rounded {
+    border-radius: 6px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ .socialIcons{
+	 position:relative;
+	 width:48px;
+	 height:48px;
+	 left:0px;
+    top:0px;
+	/*   Apply a CSS3 Transition to width, height, top and left properties */
+    transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -webkit-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -o-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -moz-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+	 
+ }
+ 
+ .socialIcons:hover{
+	 width:52px;
+	 height:52px;
+	/* left:-10px;*/
+     top:-10px;
+	 z-index:9999;
+	/* overflow:hidden;*/
+	 
+ }
