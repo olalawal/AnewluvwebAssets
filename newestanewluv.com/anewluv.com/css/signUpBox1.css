@@ -1,0 +1,352 @@
+/*#push{
+	position: relative;
+	border: 1px solid #yellow;
+	width: 30%;
+	height:100%;
+	z-index:10;
+}*/
+
+
+#signInWrapper{
+	display: block;
+	border-radius: 8px;
+	position: absolute;
+	/*left: 590px;*/
+	/*left: 579px;*/
+	left: 56.54%;
+	/*width:34.20%;*/
+	/*top: 28px;*/
+	top: 4.03%;
+	z-index:20;
+	
+
+	/*opacity:.5;*/
+}
+#signIn {
+	/*margin-left: 28px;*/
+	/*margin-top: 18px*/;
+	margin-top: 8%;
+	display: block;
+	/*float: left;*/
+	margin-bottom: 0;
+	/*background-color: #c9e9fb;*/
+	border: 1px solid #000;
+	/*width: 340px;*/
+	width:110.5%;
+	padding-top: 0;
+    height: auto;
+	border-radius: 8px;
+	overflow:hidden;
+	/*position: relative;*/
+	background: rgba(186,215,231,.65);/* Old Browsers */
+background-moz-linear-gradient(top,rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(186,215,231,.4)), color-stop(100%, rgba(201,233,251,0.65)));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(186,215,231,.4) 0%, rgba(201,233,251,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(186,215,231,1) 0%, rgba(201,233,251,0.65) 100%); /* IE 10+ */
+	background: linear-gradient(to bottom, rgba(186,215,231,.60) 0%, rgba(201,233,251,0.65) 100%);/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bad7e7', endColorstr='#c9e9fb', GradientType=0 )
+	 filter:alpha(opacity=50);
+	/* IE6-9 */
+	
+}
+
+/*html > body #signIn{
+	height: 414px;
+	min-height: 360px;
+}*/
+
+#wrapperFormSignIn, #wrapperFormSignUp1, #wrapperFormSignUp2{
+	margin:auto;
+	/*width:280px;*/
+	width:82.35%;
+	height:auto;
+	
+	
+}
+/***sign in/sign up box
+   Whatever inside partly
+   controls the length and 
+   width of box. Toggle 
+   display property****/ 
+#wrapperFormSignIn{
+	display:block;
+}
+#wrapperFormSignUp1{
+	
+	display:none;
+}
+
+#wrapperFormSignUp2{
+	display:none;
+}
+   /**reference html**/
+/***end signIn/signUp form***/
+
+#logoSignUp{
+	/*border: 1px solid #000;*/
+	/*width: 315px;*/
+	width: 94.65%;
+	/*height: 60px;*/
+	height: 11.32%;
+	/*padding-top:8px;*/
+	padding-top: 2.35%;
+	text-align: center;
+	margin: auto;
+	/*background-image: url(../images/anewluvLogSignIn.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;*/
+	
+}
+.FindSpecialLuvNow{
+	height: 24px;
+	
+	
+}
+#wrapperFormSignIn .navbar-text{
+	text-align:center;
+	
+	
+}
+
+/*social icons = image class for
+sign up box list*/
+ .socialIcons{
+	 position:relative;
+	/* width:48px;*/
+	 width:109.5%;
+	 height:auto;
+	 /* height:48px;*/
+	  border:0;
+	  
+	/* left:0px;
+    top:0px;*/
+	/*   Apply a CSS3 Transition to width, height, top and left properties */
+    transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -webkit-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -o-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+    -moz-transition: width 0.3s ease,height 0.3s ease,left 0.3s ease,top 0.3s ease;
+	 
+ }
+ 
+ .socialIcons:hover{
+	width:113.5%;
+	/*width: 52px;*/
+	 height:auto;
+	/* height:52px;*/
+	/* left:-10px;*/
+     /*top:-10px;*/
+	  top:-130%;
+	 z-index:9999;
+	 border:0;
+	/* overflow:hidden;*/
+	 
+ }
+ /*social icons = image class for
+sign up box list*/
+
+#socMediaBtnSignUp{
+	/*border:1px solid #green;*/
+	/*width:316px;*/
+	width: 98.94%;
+	/*height:48px;*/
+	height:100%;
+	text-align:center;
+	margin: auto 0;
+	/*margin-top:8px;*/
+	/*padding-left:4px;*/
+	
+	
+	
+}
+.socMediaBtns.list-inline{
+	display:inline-block;
+	padding-left:0;
+	/*margin-left:4px;
+	 margin-right:4px;*/
+	 margin: auto 0;
+	/*position:relative;
+	float:left;*/
+	padding:0;
+	/*border: 1px solid #000;*/
+	height:52px;
+	clear:none;
+}
+
+	
+/*ul.socMediaBtns{
+	padding:0;
+	
+	
+}*/
+
+
+.spacer{
+	height:10px;
+}
+
+
+.socMediaBtns li{ 
+     float:left;
+	 display:block;
+	 /*width:48px;*/
+	 width:15.19%;
+	/* height:48px;*/
+	 height:15.19%;
+	/* border:1px solid #0F9;*/
+	 /*margin-left:2px;*/
+	 margin-left: .63%;
+	/* margin-right:2px;*/
+	 margin-right: .63%;
+	/* margin-top:auto;
+	 margin-bottom:auto;*/
+	 text-align:center;
+	 list-style-type:none;
+	 padding:0;
+	
+	 
+	 
+	
+}
+.signInLinks1:hover{
+	background-image: url(../images/forgotPwdUnderline.png);
+	background-repeat: no-repeat;
+	background-position: center -1px;
+	z-index:9999;
+}
+.signInLinks2:hover{
+	background-image: url(../images/dontHaveAcctUnderline.png);
+	background-repeat: no-repeat;
+	background-position: center -1px;
+	z-index:9999;
+}
+.signUpLinks2:hover{
+	background-image: url(../images/dontHaveAcctUnderline.png);
+	background-repeat: no-repeat;
+	background-position: center -1px;
+	z-index:9999;
+}
+
+.signUpLinks3:hover{
+	background-position: center -1%;
+	z-index: 9999;
+	background-image: url(../images/tosSignUpBoxHover.png);
+	background-repeat: no-repeat;
+	/*height: 76.76%;
+	width: 19px;*/
+	/*border: 1px solid #036;*/
+}
+
+
+.btn btn-primary,.btn-StyleBold,.btn-sm btn-block{
+	font-weight: bold;
+}
+.btn-joinNowSignIn{
+background-color: #fc21ac;
+  border-color: #fc21ac;
+  color: #fff;
+  font-weight: bold;
+  }
+.btn-joinNowSignIn:hover,
+.btn-joinNowSignIn:focus {
+	color: #fff;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+.btn-joinNowSignIn:hover,
+.btn-joinNowSignIn:focus {
+  background-color: #e70394;
+}
+.btn-joinNowSignIn:active,
+.btn-joinNowSignIn.active,
+.btn-joinNowSignIn.active:hover {
+  background-color: #fc08a3;
+  border-color: #e70394;
+}
+.btn-joinNowSignIn.disabled:hover,
+.btn-joinNowSignIn.disabled:focus,
+.btn-joinNowSignIn.disabled:active,
+.btn-joinNowSignIn.disabled.active,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:hover,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:focus,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn:active,
+.btn-joinNowSignIn[disabled] .btn-joinNowSignIn.active {
+  background-color: #fc21ac;
+  border-color: #fc21ac;
+}
+
+.btn-Froststyle {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #999;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top,#ffffff,#e6e6e6);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top,#ffffff,#e6e6e6);
+  background-image: -o-linear-gradient(top,#ffffff,#e6e6e6);
+  background-image: linear-gradient(to bottom,#ffffff,#e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe5e5e5', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+}
+.btn-Froststyle:hover,
+.btn-Froststyle:focus {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+.btn-Froststyle:hover,
+.btn-Froststyle:focus {
+  background-color: #e6e6e6;
+}
+.btn-Froststyle:active,
+.btn-Froststyle.active,
+.btn-Froststyle.active:hover {
+  background-color: #f2f2f2;
+  border-color: #e6e6e6;
+}
+.btn-Froststyle.disabled:hover,
+.btn-Froststyle.disabled:focus,
+.btn-Froststyle.disabled:active,
+.btn-Froststyle.disabled.active,
+.btn-Froststyle[disabled] .btn-Froststyle:hover,
+.btn-Froststyle[disabled] .btn-Froststyle:focus,
+.btn-Froststyle[disabled] .btn-Froststyle:active,
+.btn-Froststyle[disabled] .btn-Froststyle.active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/*.img-rounded {
+    border-radius: 6px;
+}
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}*/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
